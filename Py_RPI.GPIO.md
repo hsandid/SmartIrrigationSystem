@@ -46,8 +46,6 @@ GPIO.output(<CHANNEL>, GPIO.HIGH)
 #Set output as low
 GPIO.output(<CHANNEL>, GPIO.LOW)
 ```
-## PWM Function
-More can be read about PWM configuration of GPIO pins here : https://sourceforge.net/p/raspberry-gpio-python/wiki/PWM/
 ## Cleanup
 To cleanup any used resources, you can call the following : 
 ```python3 
