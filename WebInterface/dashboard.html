@@ -25,6 +25,11 @@
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+
+        #map {
+        height: 400px;
+        width: 100%;
+       }
       }
     </style>
     <!-- Custom styles for this template -->
@@ -53,6 +58,12 @@
             <a onclick='showHome()' id="homeHy" class="nav-link active" href="#">
               <span data-feather="home"></span>
               Home<span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a onclick='showMapSystem()' id="mapSystemHy" class="nav-link" href="#">
+              <span data-feather="bar-chart-2"></span>
+              Dummy Map System
             </a>
           </li>
           <li class="nav-item">
@@ -87,6 +98,14 @@
         <li>Etc...</li>
       </ul>
       </div>
+      <div id="mapSystemTab">
+        <div  class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h2">Dummy Map System</h1>
+        </div>
+        <div id="map">
+	
+        </div>
+        </div>
       <div id="analyticsTab" >
       <div  class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Analytics</h1>
@@ -138,17 +157,20 @@
 
           document.getElementById("settingsTab").style.display = "none"; 
 
+          document.getElementById("mapSystemTab").style.display = "none"; 
+
           function showHome()
           {
             document.getElementById("homeHy").className = "nav-link active"; 
             document.getElementById("analyticsHy").className = "nav-link"; 
-            document.getElementById("settingsHy").className = "nav-link"; 
-
+            document.getElementById("settingsHy").className = "nav-link";
             document.getElementById("homeTab").style.display = "block"; 
 
             document.getElementById("analyticsTab").style.display = "none"; 
+            document.getElementById("settingsTab").style.display = "none";
 
-          document.getElementById("settingsTab").style.display = "none"; 
+            document.getElementById("mapSystemTab").style.display = "none";
+            document.getElementById("mapSystemHy").className = "nav-link";
           }
 
           function showAnalytics()
@@ -159,8 +181,9 @@
 
             document.getElementById("homeTab").style.display = "none"; 
             document.getElementById("analyticsTab").style.display = "block"; 
-          document.getElementById("settingsTab").style.display = "none"; 
-
+            document.getElementById("settingsTab").style.display = "none"; 
+            document.getElementById("mapSystemTab").style.display = "none";
+            document.getElementById("mapSystemHy").className = "nav-link";
 
           }
 
@@ -172,8 +195,39 @@
 
             document.getElementById("homeTab").style.display = "none"; 
             document.getElementById("analyticsTab").style.display = "none"; 
-          document.getElementById("settingsTab").style.display = "block"; 
+          document.getElementById("settingsTab").style.display = "block";
+
+           document.getElementById("mapSystemTab").style.display = "none";
+            document.getElementById("mapSystemHy").className = "nav-link"; 
           }
 
-        </script></body>
+          function showMapSystem()
+          {
+            document.getElementById("homeHy").className = "nav-link"; 
+            document.getElementById("analyticsHy").className = "nav-link"; 
+            document.getElementById("settingsHy").className = "nav-link "; 
+
+            document.getElementById("homeTab").style.display = "none"; 
+            document.getElementById("analyticsTab").style.display = "none"; 
+          document.getElementById("settingsTab").style.display = "none";
+
+           document.getElementById("mapSystemTab").style.display = "block";
+            document.getElementById("mapSystemHy").className = "nav-link active"; 
+          }
+
+          function initMap() {
+
+var leb = {lat: 33.8, lng: 35.51};
+
+var map = new google.maps.Map(
+    document.getElementById('map'), {zoom: 12, center: leb});
+
+var marker = new google.maps.Marker({position: leb, map: map});
+}
+
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3ErHEAu5UjfY9i86Tbcb59vc1GoSACmI&callback=initMap">
+        </script>  
+      </body>
 </html>
