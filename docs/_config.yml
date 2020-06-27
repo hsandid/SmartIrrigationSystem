@@ -12,7 +12,7 @@ collections:
   posts:
     output          : true
 
-theme: just-the-docs
+theme: minima
 
 # Handling Reading
 safe                : false
