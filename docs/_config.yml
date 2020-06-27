@@ -12,8 +12,6 @@ collections:
   posts:
     output          : true
 
-remote_theme: "mmistakes/minimal-mistakes@4.19.3"
-
 # Handling Reading
 safe                : false
 include             : [".htaccess"]
