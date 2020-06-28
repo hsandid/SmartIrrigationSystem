@@ -6,6 +6,6 @@ linkedin_username: hsandid
 github_username:  hsandid
 
 # Build settings
-theme: jekyll-theme-modernist
+theme: minima
   
 markdown: kramdown
