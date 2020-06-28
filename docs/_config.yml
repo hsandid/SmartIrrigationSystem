@@ -30,6 +30,10 @@ github_username:  hsandid
 theme: minima
 plugins:
   - jekyll-feed
+  
+markdown: kramdown
+production_url : http://hsandid.github.io/SmartIrrigationSystem
+BASE_PATH : http://hsandid.github.io/SmartIrrigationSystem
 
 # Exclude from processing.
 # The following items will not be processed, by default.
