@@ -1,7 +1,11 @@
 ---
 layout: post
-title:  "Internship Meeting, Week #3 (June 23)"
+title:  "Week #3 (June 23)"
+parent: Meetings Overview
+nav_order: 3
 ---
+
+# Week #3 (June 23)
 
 - Work Completed this week :
 

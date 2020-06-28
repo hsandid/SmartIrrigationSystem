@@ -1,7 +1,11 @@
 ---
 layout: post
-title:  "Internship Meeting , Week #2 (June 15th)"
+title:  "Week #2 (June 15th)"
+parent: Meetings Overview
+nav_order: 2
 ---
+
+# Week #2 (June 15th)
 
 ### Web Interface for the Smart Irrigation Controller 
 

@@ -1,7 +1,11 @@
 ---
 layout: post
-title:  "Raspberry-Pi Zero Specifications"
+title:  "Raspberry-Pi Zero"
+parent: Raspberry-Pi Technical Information
+nav_order: 2
 ---
+
+# Raspberry-Pi Zero Specifications
 
 ![Raspberry-Pi Zero ](https://www.raspberrypi.org/homepage-9df4b/static/65b0d08abaa609951b5a64529cc7f455/052d8/6b0defdbbf40792b64159ab8169d97162c380b2c_raspberry-pi-zero-1-1755x1080.jpg)
 
