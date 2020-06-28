@@ -1,8 +1,7 @@
 title: Smart Irrigation System
 email: hxa04@mail.aub.edu
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hsandid.github.io/SmartIrrigationSystem" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/SmartIrrigationSystem" # the subpath of your site, e.g. /blog
 linkedin_username: hsandid
 github_username:  hsandid
 
