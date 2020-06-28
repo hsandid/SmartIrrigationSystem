@@ -1,9 +1,7 @@
 ---
 layout: post
-title:  "Internship Meeting , June 15th"
+title:  "Internship Meeting , Week #2 (June 15th)"
 ---
-
-# Internship Meeting , June 15th
 
 ### Web Interface for the Smart Irrigation Controller 
 

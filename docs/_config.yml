@@ -1,11 +1,15 @@
 title: Smart Irrigation System
-email: hxa04@mail.aub.edu
-
+email : "hxa04@mail.aub.edu"
+highlighter: rouge
+  
 baseurl: "/SmartIrrigationSystem" # the subpath of your site, e.g. /blog
-linkedin_username: hsandid
-github_username:  hsandid
+
 
 # Build settings
 theme: minima
   
-markdown: kramdown
+markdown: GFM
+
+minima:
+    github: hsandid
+    linkedin: hsandid

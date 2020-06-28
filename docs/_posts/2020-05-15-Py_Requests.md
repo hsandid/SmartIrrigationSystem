@@ -48,9 +48,15 @@ r = requests.get(<URI>, params=payload)
 ## Adding custom headers
 - GET request with custom headers
 
-```
+```python3 
 url = 'https://api.github.com/some/endpoint'
+```
+
+```python3 
 customHeaders = {'user-agent': 'my-app/0.0.1'}
+```
+
+```python3 
 r = requests.get(<URI>, headers = customHeaders)
 ```
 

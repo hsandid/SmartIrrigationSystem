@@ -1,9 +1,7 @@
 ---
 layout: post
-title:  "Internship Meeting, Week #2 (June 23)"
+title:  "Internship Meeting, Week #3 (June 23)"
 ---
-
-# Internship Meeting, Week #2 (June 23)
 
 - Work Completed this week :
 
