@@ -9,8 +9,8 @@ nav_order: 3
 
 - Work Completed this week :
 
-  - Added map interface to the S.I.C. web interface. Found [here](https://github.com/hsandid/SmartIrrigationSystem/tree/master/WebInterface).
-  - Added registration process to the S.I.C. web interface. Found [here](https://github.com/hsandid/SmartIrrigationSystem/tree/master/RegistrationProcess).
+  - Added map interface to the web interface.
+  - Added registration process to the S.I.C. web interface.
   - Set-up a web server on the Raspberry-Pi board, using *Apache*.
 
 ### Smart Irrigation Controller - Web Interface
@@ -19,10 +19,6 @@ nav_order: 3
 - Discuss the newly-added registration process
 - Current Python scripts are redundant with the web interface. Implement python scripts which runs continually in the background
 - **Important** : Re-discuss the "Irrigation Control Method" from last meeting, and clarify how it should be implemented. How much will we rely on algorithms to control the irrigation routine ? How much control should we give to the user ?
-
-### Enclosure
-
- - Looking for an enclosure which can be used. Any local producer, so we don't have to import it ? More details [here](https://gist.github.com/hsandid/71a9572bae61ed78697474a847df5c54).
 
 ### Upcoming Report
 
@@ -38,4 +34,3 @@ nav_order: 3
 - Meeting with agriculture experts ?
 - Obtaining the LoRa interface ?
 - Might have to borrow some tools/parts from the FEA labs. How can I contact them & reach them ? Do I need special access ?
-- Google Cloud access for testing ? Possible alternatives (using GitHub pages, etc...).

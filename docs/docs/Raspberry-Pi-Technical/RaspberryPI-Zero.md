@@ -53,4 +53,4 @@ nav_order: 2
 
 ## Resources
 
-- https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
+- https://www.raspberrypi.org/products/raspberry-pi-zero/

@@ -7,13 +7,8 @@ nav_order: 2
 
 # Week #2 (June 15th)
 
-### Web Interface for the Smart Irrigation Controller 
-
-- Repository has been setup [here](https://github.com/hsandid/SmartIrrigationSystem_WebInterface)
-
-- Walkthrough of the prototype dashboard
-
-- What features can be added in each page ?
+- Work Completed
+   - Web Interface prototype, for the Raspberry-Pi
 
 ### Deploying a Raspberry-Pi prototype in the field
 
@@ -26,10 +21,6 @@ I need to conduct a feasibility study before moving on to the implementation.
 
 - Find a way to power the Raspberry-Pi device efficiently in the field. ( Portable battery pack ? Solar Power ? )
 
-### Setting Date for the Code reviews
+### Code Review
 
-- Code review for the Rasp-Py routines ? (needs 30 mins)
-   - Python code
-
-- Code review for the mobile application ? (needs 1h30 - 2h)
-   - Java Code with some XML => Need to prepare a code review which focuses on the concepts rather than syntax/semantics of Java.
+We must agree on a time to conduct a code review for the Raspberry-Pi scripts and web interface, and also the Mobile application.

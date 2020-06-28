@@ -58,6 +58,6 @@ To cleanup any used resources, you can call the following :
 ```py
 GPIO.cleanup()
 ```
-```
+
 ## Source
 - https://sourceforge.net/p/raspberry-gpio-python/wiki
