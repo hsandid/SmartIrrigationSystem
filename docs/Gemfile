@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
+=======
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
+>>>>>>> 6a09483ea61267c1a037eb59ef0e1b0fa364baa4
