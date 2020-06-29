@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week #3 (June 23)"
+title:  "Week #3 (June 23th)"
 parent: Meetings Overview
 nav_order: 3
 ---

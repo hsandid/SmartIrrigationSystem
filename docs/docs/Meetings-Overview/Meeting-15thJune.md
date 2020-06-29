@@ -12,6 +12,7 @@ nav_order: 2
 
 ### Deploying a Raspberry-Pi prototype in the field
 
+
 I need to conduct a feasibility study before moving on to the implementation.
 
 - Meeting with experts from the agriculture department
