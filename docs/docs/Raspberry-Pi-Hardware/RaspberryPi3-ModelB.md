@@ -114,7 +114,7 @@ nav_order: 1
 
 - **Miscellaneous Information :**
   - The Raspberry-Pi 3 Model B will remain in production until January 2026.
-  - Global compliance and safety certificates [here]((https://www.raspberrypi.org/documentation/hardware/raspberrypi/conformity.md)
+  - Global compliance and safety certificates [here](https://www.raspberrypi.org/documentation/hardware/raspberrypi/conformity.md)
   - Operating temperature : 0-50°C
   - Raspberry-Pi 3 Model B mechanical drawing available [here](https://github.com/raspberrypi/documentation/raw/master/hardware/raspberrypi/mechanical/rpi_MECH_3bplus.pdf)
   - Raspberry-Pi 3 Model B schematic diagrams available [here](https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf)
