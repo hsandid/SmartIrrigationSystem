@@ -448,7 +448,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     ```json
     {
-    	lang_change: <int>
+    	lang_change: <number>
     }
     ```
     
@@ -468,7 +468,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     ```json
     {
-    	response_time: <int>
+    	response_time: <number>
     }
     ```
     
