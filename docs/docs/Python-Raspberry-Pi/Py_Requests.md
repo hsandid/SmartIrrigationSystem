@@ -64,4 +64,4 @@ print(jsonResponse[<JSONFIELD>])
 ```
 
 ## Source
-- https://requests.readthedocs.io/en/latest/user/quickstart/#make-a-request
+- [Official Request Library documentation](https://requests.readthedocs.io/en/latest/user/quickstart/#make-a-request)

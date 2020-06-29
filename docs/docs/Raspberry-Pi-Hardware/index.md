@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Raspberry-Pi Technical Information
+title: Raspberry-Pi Hardware
 nav_order: 4
 has_children: true
 ---

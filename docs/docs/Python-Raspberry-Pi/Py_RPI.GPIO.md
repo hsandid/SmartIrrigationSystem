@@ -60,4 +60,4 @@ GPIO.cleanup()
 ```
 
 ## Source
-- https://sourceforge.net/p/raspberry-gpio-python/wiki
+- [Official RPI.GPIO Documentation](https://sourceforge.net/p/raspberry-gpio-python/wiki)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry-Pi Zero"
-parent: Raspberry-Pi Technical Information
+parent: Raspberry-Pi Hardware
 nav_order: 2
 ---
 
@@ -53,4 +53,4 @@ nav_order: 2
 
 ## Resources
 
-- https://www.raspberrypi.org/products/raspberry-pi-zero/
+- [Raspberry-Pi Zero, Official Page](https://www.raspberrypi.org/products/raspberry-pi-zero/)

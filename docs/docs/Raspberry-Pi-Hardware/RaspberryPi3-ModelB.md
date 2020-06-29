@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry-Pi 3 - Model B"
-parent: Raspberry-Pi Technical Information
+parent: Raspberry-Pi Hardware
 nav_order: 1
 ---
 
@@ -79,10 +79,10 @@ nav_order: 1
       - Pulse width modulated signal frequency and duty-cycle can be modified.
       - Software Pulse-Width Modulation is available on all GPIO pins.
       - Hardware Pulse-Width Modulation is available on pins GPIO12, GPIO13, GPIO18, GPIO19.
-    - Raspberry-Pi supports SPI
+    - Raspberry-Pi supports SPI over it's UART interface
       - SPI0: MOSI (GPIO10); MISO (GPIO9); SCLK (GPIO11); CE0 (GPIO8), CE1 (GPIO7)
       - SPI1: MOSI (GPIO20); MISO (GPIO19); SCLK (GPIO21); CE0 (GPIO18); CE1 (GPIO17); CE2 (GPIO16)
-    - Raspberry-Pi supports I2C
+    - Raspberry-Pi supports I2C over it's UART interface
       - EEPROM Data: (GPIO0); EEPROM Clock (GPIO1); Data: (GPIO2); Clock (GPIO3)
 
     
@@ -123,5 +123,4 @@ nav_order: 1
 
 ## Resources
 
-- https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/
-
+- [Raspberry-Pi 3 Model B, Official Page](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
