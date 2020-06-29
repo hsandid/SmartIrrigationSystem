@@ -44,7 +44,7 @@ nav_order: 2
 
 - **Miscellaneous Information :**
   - The Raspberry-Pi Zero will remain in production until January 2026.
-  - Global compliance and safety certificates [here]((https://www.raspberrypi.org/documentation/hardware/raspberrypi/conformity.md)
+  - Global compliance and safety certificates [here](https://www.raspberrypi.org/documentation/hardware/raspberrypi/conformity.md)
   - Operating temperature : 0-50°C
   - Raspberry-Pi Zero mechanical drawing available [here](https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_Zero_1p3.pdf)
   - Raspberry-Pi Zero schematic diagrams available [here](https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_Zero_1p3_reduced.pdf)
