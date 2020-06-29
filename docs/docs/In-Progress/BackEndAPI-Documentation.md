@@ -11,7 +11,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 ### Available API Calls
 
-- POST ```/signup ```
+### POST ```/signup ```
 
   - Description: Call allowing new users to sign-up and receive an authentication token/user-id.
 
@@ -461,7 +461,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   - Description: Get the average UI response time for each user.This will be stored on a user-level. It will be added to the stored total value and a counter of total numbers this response time has been logged will be incremented. Therefore calculating average response time per user.
   
-- Required Header : ``` auth_token ```	
+  - Required Header : ``` auth_token ```	
   
   - Request body (in *JSON* format) : 
     
@@ -470,7 +470,5 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     	response_time: <int>
     }
     ```
-    
-    
     
   - Response: ```status 204 [NO_CONTENT]```
