@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Raspberry-Pi Zero Specifications"
+title:  "Raspberry-Pi Zero"
+parent: Raspberry-Pi Hardware
+nav_order: 2
 ---
 
 # Raspberry-Pi Zero Specifications
 
-![Image of Yaktocat](https://www.raspberrypi.org/homepage-9df4b/static/65b0d08abaa609951b5a64529cc7f455/052d8/6b0defdbbf40792b64159ab8169d97162c380b2c_raspberry-pi-zero-1-1755x1080.jpg)
+![Raspberry-Pi Zero ](https://www.raspberrypi.org/homepage-9df4b/static/65b0d08abaa609951b5a64529cc7f455/052d8/6b0defdbbf40792b64159ab8169d97162c380b2c_raspberry-pi-zero-1-1755x1080.jpg)
 
 - **Processor :** 
 
@@ -42,7 +44,7 @@ title:  "Raspberry-Pi Zero Specifications"
 
 - **Miscellaneous Information :**
   - The Raspberry-Pi Zero will remain in production until January 2026.
-  - Global compliance and safety certificates [here]((https://www.raspberrypi.org/documentation/hardware/raspberrypi/conformity.md)
+  - Global compliance and safety certificates [here](https://www.raspberrypi.org/documentation/hardware/raspberrypi/conformity.md)
   - Operating temperature : 0-50°C
   - Raspberry-Pi Zero mechanical drawing available [here](https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_Zero_1p3.pdf)
   - Raspberry-Pi Zero schematic diagrams available [here](https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_Zero_1p3_reduced.pdf)
@@ -51,4 +53,4 @@ title:  "Raspberry-Pi Zero Specifications"
 
 ## Resources
 
-- https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
+- [Raspberry-Pi Zero, Official Page](https://www.raspberrypi.org/products/raspberry-pi-zero/)

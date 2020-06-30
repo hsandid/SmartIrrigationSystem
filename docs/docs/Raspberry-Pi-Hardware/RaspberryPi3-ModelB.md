@@ -1,6 +1,13 @@
+---
+layout: post
+title:  "Raspberry-Pi 3 - Model B"
+parent: Raspberry-Pi Hardware
+nav_order: 1
+---
+
 # Raspberry-Pi 3 - Model B Specifications
 
-![Image of Yaktocat](https://www.raspberrypi.org/homepage-9df4b/static/3198932bc370441e554eb72e9713e12b/052d8/67d8fcc5b2796665a45f61a2e8a5bb7f10cdd3f5_raspberry-pi-3-1-1619x1080.jpg)
+![Image of Rasp3 modelB](https://www.raspberrypi.org/homepage-9df4b/static/3198932bc370441e554eb72e9713e12b/052d8/67d8fcc5b2796665a45f61a2e8a5bb7f10cdd3f5_raspberry-pi-3-1-1619x1080.jpg)
 
 - **Processor :** 
 
@@ -72,15 +79,15 @@
       - Pulse width modulated signal frequency and duty-cycle can be modified.
       - Software Pulse-Width Modulation is available on all GPIO pins.
       - Hardware Pulse-Width Modulation is available on pins GPIO12, GPIO13, GPIO18, GPIO19.
-    - Raspberry-Pi supports SPI
+    - Raspberry-Pi supports SPI over it's UART interface
       - SPI0: MOSI (GPIO10); MISO (GPIO9); SCLK (GPIO11); CE0 (GPIO8), CE1 (GPIO7)
       - SPI1: MOSI (GPIO20); MISO (GPIO19); SCLK (GPIO21); CE0 (GPIO18); CE1 (GPIO17); CE2 (GPIO16)
-    - Raspberry-Pi supports I2C
+    - Raspberry-Pi supports I2C over it's UART interface
       - EEPROM Data: (GPIO0); EEPROM Clock (GPIO1); Data: (GPIO2); Clock (GPIO3)
 
     
 
-    ![Image of Yaktocat](https://www.raspberrypi.org/documentation/usage/gpio/images/gpiozero-pinout.png)
+    ![Image of Rasp3 modelb](https://www.raspberrypi.org/documentation/usage/gpio/images/gpiozero-pinout.png)
 
   - 4x USB 2.0 ports
 
@@ -107,7 +114,7 @@
 
 - **Miscellaneous Information :**
   - The Raspberry-Pi 3 Model B will remain in production until January 2026.
-  - Global compliance and safety certificates [here]((https://www.raspberrypi.org/documentation/hardware/raspberrypi/conformity.md)
+  - Global compliance and safety certificates [here](https://www.raspberrypi.org/documentation/hardware/raspberrypi/conformity.md)
   - Operating temperature : 0-50°C
   - Raspberry-Pi 3 Model B mechanical drawing available [here](https://github.com/raspberrypi/documentation/raw/master/hardware/raspberrypi/mechanical/rpi_MECH_3bplus.pdf)
   - Raspberry-Pi 3 Model B schematic diagrams available [here](https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf)
@@ -116,5 +123,4 @@
 
 ## Resources
 
-- https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/
-
+- [Raspberry-Pi 3 Model B, Official Page](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
