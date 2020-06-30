@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Back-End API Documentation
 parent: Back-End System
-title:  "Back-End API Documentation"
-nav_order: 1
 ---
 
 # Back-End API

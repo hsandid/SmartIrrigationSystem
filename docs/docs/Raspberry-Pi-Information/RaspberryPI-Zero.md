@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Raspberry-Pi Zero"
-parent: Raspberry-Pi Hardware
-nav_order: 2
+parent: Raspberry-Pi Information
 ---
 
 # Raspberry-Pi Zero Specifications

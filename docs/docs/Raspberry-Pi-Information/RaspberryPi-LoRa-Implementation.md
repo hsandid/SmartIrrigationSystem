@@ -1,6 +1,7 @@
 ---
 layout: post
-parent: In-Progress
+parent: Raspberry-Pi Information
 title:  "Raspberry-Pi LoRa Implementation"
-nav_order: 4
 ---
+
+# Work In Progress

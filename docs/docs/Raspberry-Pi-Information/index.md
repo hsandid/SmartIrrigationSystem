@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Raspberry-Pi Hardware
-nav_order: 5
+title: Raspberry-Pi Information
 has_children: true
 ---
 

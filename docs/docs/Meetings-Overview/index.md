@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Meetings Overview
-nav_order: 2
 has_children: true
 ---
 

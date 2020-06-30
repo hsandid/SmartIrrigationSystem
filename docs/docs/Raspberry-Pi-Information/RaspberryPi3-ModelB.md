@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Raspberry-Pi 3 - Model B"
-parent: Raspberry-Pi Hardware
-nav_order: 1
+parent: Raspberry-Pi Information
 ---
 
 # Raspberry-Pi 3 - Model B Specifications

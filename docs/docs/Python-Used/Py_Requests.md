@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Requests library"
-parent: Python Libraries for the Raspberry-Pi
-nav_order: 2
+parent: Python Libraries Used
 ---
 # Python-3 Requests library
 

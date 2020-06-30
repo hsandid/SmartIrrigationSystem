@@ -1,6 +1,7 @@
 ---
 layout: post
-parent: In-Progress
+parent: Raspberry-Pi Information
 title:  "Raspberry-Pi Portable Power Supply"
-nav_order: 5
 ---
+
+# Work In Progress

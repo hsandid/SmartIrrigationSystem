@@ -1,9 +1,10 @@
 ---
 layout: post
-parent: Raspberry-Pi Software
+parent: Raspberry-Pi Information
 title:  "Raspbian Overview"
-nav_order: 1
 ---
+
+# Work In Progress
 
 # Raspbian OS Overview
 

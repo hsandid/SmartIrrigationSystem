@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Python Libraries for the Raspberry-Pi
-nav_order: 4
+title: Python Libraries Used
 has_children: true
 ---
 

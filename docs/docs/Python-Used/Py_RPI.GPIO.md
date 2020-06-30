@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "RPI.GPIO library"
-parent: Python Libraries for the Raspberry-Pi
-nav_order: 1
+parent: Python Libraries Used
 ---
 # Python-3 - RPI.GPIO library
 
