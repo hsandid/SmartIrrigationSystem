@@ -1,7 +1,7 @@
 ---
 layout: post
 parent: Raspberry-Pi Information
-title:  "Raspberry-Pi Portable Power Supply"
+title:  Portable Power-Supply Implementation
 ---
 
 # Work In Progress

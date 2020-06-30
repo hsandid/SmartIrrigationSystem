@@ -1,7 +1,7 @@
 ---
 layout: post
 parent: Raspberry-Pi Information
-title:  "Raspbian Overview"
+title:  Raspbian Overview
 ---
 
 # Work In Progress
