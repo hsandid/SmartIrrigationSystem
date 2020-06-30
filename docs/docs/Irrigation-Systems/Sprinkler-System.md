@@ -10,7 +10,7 @@ parent : On-Site Irrigation System
 
 Sprinkler irrigation is a method of providing rainfall-like irrigation to the crops. Water is distributed through a system of pipes usually by pumping. Spray heads at the outlets distribute the water over the entire soil surface. Sprinklers provide efficient coverage for small to large areas and are suitable for all types of crops. Furthermore, they can be adapted to nearly all irrigable soils since sprinklers are available with a variety of discharge capacities. However, sprinkler systems can easily clog with the presence of sediment or debris and large systems incur high capital costs.
 
-*Example Sprinkler Irrigation System :*
+*Example of a Sprinkler Irrigation System :*
 
 ![Sprinkler Irrigation System](https://sswm.info/sites/default/files/inline-images/ACCESS%20IRRIGATION%20n.y.%20Several%20sprinkler%20heads%20are%20connected%20to%20a%20lateral%20pipe%2C%20which%20is%20supplied%20by%20a%20mainline.png)
 

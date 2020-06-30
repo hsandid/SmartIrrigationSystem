@@ -10,7 +10,7 @@ parent : On-Site Irrigation System
 
 Drip irrigation is a technique in which water flows through a filter into special drip pipes, with emitters located at different spacing. Water is distributed through the emitters directly into the soil near the roots through a special slow-release device. Water can be more precisely applied to the plant roots, compared to other irrigation systems. Drip irrigation is adaptable to any farmable slope and is suitable for most soils.
 
-*Example Drip Irrigation System :*
+*Example of a Drip Irrigation System :*
 
 ![Drip Irrigation System](https://sswm.info/sites/default/files/inline-images/RCSD%202008.%20Schematic%20design%20of%20a%20low-cost%20drip%20irrigation%20system.png)
 
