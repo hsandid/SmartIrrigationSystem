@@ -24,7 +24,7 @@ I need to conduct a feasibility study before moving on to the implementation.
 
 We must agree on a time to conduct a code review for the Raspberry-Pi scripts and web interface, and also the Mobile application.
 
-### Post-Meeting
+## Post-Meeting
 
 - Add a map to the web interface, so the user can see his field(s).
 - Add a registration process to the S.I.C. web interface
