@@ -28,9 +28,8 @@ nav_order: 3
 - Power supply solutions to make the Rasp. Pi portable using external batteries and solar power. 
 - Requirements of the LoRa interface, especially when connected with a Raspberry-Pi.
 
+## Post-Meeting
 
-### Meeting Questions
-
-- Meeting with agriculture experts ?
-- Obtaining the LoRa interface ?
-- Might have to borrow some tools/parts from the FEA labs. How can I contact them & reach them ? Do I need special access ?
+- Add a history/logs page to the web interface
+- Add a scheduling page on the web interface
+- Set-up an alternative to host documentations related to the *Smart Irrigation Controller* 
