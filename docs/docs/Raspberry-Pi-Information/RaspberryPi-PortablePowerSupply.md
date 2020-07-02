@@ -15,7 +15,7 @@ title:  Portable Power-Supply Implementation
 
 ### Theory
 
-![solar energy diagram](\assets\images\Diagram-Solar-Energy.png)
+![image info](../../assets/images/Diagram-Solar-Energy.PNG)
 
 - Raspberry-Pi 3 B at maximum CPU load consumes around 3.7W
   - Assuming our board is active 24/7, it would consume <img src="https://render.githubusercontent.com/render/math?math=3.7*24 = 88.8"> Wh/Day
@@ -28,4 +28,4 @@ title:  Portable Power-Supply Implementation
 
 ### Practical Example
 
-If possible with the current situation, it would be interesting to obtain a small form-factor solar panel and batteries to test this portable setup
+If possible with the current situation, it would be interesting to obtain a small form-factor solar panel and batteries to test this portable setup for the *Smart Irrigation Controller*
