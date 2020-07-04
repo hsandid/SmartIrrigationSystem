@@ -39,4 +39,4 @@ nav_order: 4
   - Allow user to enable/disable notifications
   - Allow user to select what type or Irrigation schedule they need (i.e. Manual / Automatic)
 - History/Log Tab in the Web Interface
-  - Provide analytics/logs related to previous irrigations and 
+  - Provide analytics/logs related to previous irrigation data.
