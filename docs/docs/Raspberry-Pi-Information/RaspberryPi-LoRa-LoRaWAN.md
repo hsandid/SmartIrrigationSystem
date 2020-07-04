@@ -8,14 +8,6 @@ title:  LoRaWAN Technology
 - We intend to deploy our *Smart Irrigation Controller* on agricultural fields which may span several acres. Usual wireless solutions to connect to the internet like Wi-Fi and Bluetooth are not viable due to their limited range.
 - A possible wireless solution would be LoRaWAN (i.e. Long Range Radio Wide Area Network).
 
-## What's the difference between LoRaWAN & LoRA ?
-
-- **LoRa** contains only the link layer protocol, and works in the 868 and 900MHz bands
-  - LoRa offers satisfying performance if we only want to connect two nodes through P2P.
-- **LoRaWAN** includes both the link layer protocol and the network layer protocol, and works in the 868/900/433MHz bands
-  - LoRaWAN is not advised for projects which require real-time streaming, or which cannot support any type of packet delay. Transmission is not done in real time as there is a minimum delay for packet arrival (around 1 to 5 seconds depending on range/LoRaWAN module).
-  -  With LoRaWAN, we can deploy private LoRaWAN networks using LoRaWAN-compatible base stations and gateways.
-
 
 
 ## LoRaWAN Overview
@@ -28,6 +20,8 @@ title:  LoRaWAN Technology
   - The gateway is connected to the internet, and can contact the back-end server through a standard IP connection, allowing end-devices and the back-end to communicate.
 
 ![LoRaWAN network architecture](https://lh3.googleusercontent.com/proxy/s4Zx68avXpbRyrLYA6nDH-SARPpRdyrSBbAtZbIOja2AF9vNUujorLQ4rfLwJ4Vx-xG0HMV8qDW6WEmKcXbHdKZxTmNHcZxVcTjREsb25aw)
+
+
 
 ## Popular LoRaWAN modules
 
@@ -57,7 +51,21 @@ title:  LoRaWAN Technology
 
 
 
-### Connecting to the Raspberry-Pi
+## What's the difference between LoRaWAN & LoRA ?
+
+- **LoRa** contains only the link layer protocol, and works in the 868 and 900MHz bands
+
+  - LoRa offers satisfying performance if we only want to connect two nodes through P2P.
+
+- **LoRaWAN** includes both the link layer protocol and the network layer protocol, and works in the 868/900/433MHz bands
+
+  - LoRaWAN is not advised for projects which require real-time streaming, or which cannot support any type of packet delay. Transmission is not done in real time as there is a minimum delay for packet arrival (around 1 to 5 seconds depending on range/LoRaWAN module).
+
+  -  With LoRaWAN, we can deploy private LoRaWAN networks using LoRaWAN-compatible base stations and gateways.
+
+    
+
+## Connecting to the Raspberry-Pi
 
 - Raspberry-Pi boards can communicate with the LoRaWAN module over UART.
 - The LoRaWAN library is available for the Raspberry-Pi [here](https://www.cooking-hacks.com/media/cooking/images/documentation/tutorial_kit_lorawan/arduPi_api_LoRaWAN_v1_3.zip). It requires the ArduPi library, which is downloadable [here](https://www.cooking-hacks.com/media/cooking/images/documentation/raspberry_arduino_shield/raspberrypi2.zip).
