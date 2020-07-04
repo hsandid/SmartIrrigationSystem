@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Drip Irrigation System
-parent : On-Site Irrigation System
+parent : Irrigation System
 ---
 
 # Drip Irrigation System

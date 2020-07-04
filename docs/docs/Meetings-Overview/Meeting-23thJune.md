@@ -5,20 +5,28 @@ parent: Meetings Overview
 nav_order: 3
 ---
 
-# Week #3 (June 23)
+# Meeting #3 - June 23th
 
-- Work Completed this week :
+### Work Completed this week
 
-  - Added map interface to the web interface.
-  - Added registration process to the S.I.C. web interface.
-  - Set-up a web server on the Raspberry-Pi board, using *Apache*.
+- Added map interface to the web interface.
+- Added registration process to the S.I.C. web interface.
+- Set-up a web server on the Raspberry-Pi board, using *Apache*.
+
+---
+
+
 
 ### Smart Irrigation Controller - Web Interface
 
 - Discuss the newly-added map interface
 - Discuss the newly-added registration process
 - Current Python scripts are redundant with the web interface. Implement python scripts which runs continually in the background
-- **Important** : Re-discuss the "Irrigation Control Method" from last meeting, and clarify how it should be implemented. How much will we rely on algorithms to control the irrigation routine ? How much control should we give to the user ?
+- Re-discuss the "Irrigation Control Method" from last meeting, and clarify how it should be implemented. How much will we rely on algorithms to control the irrigation routine ? How much control should we give to the user ?
+
+---
+
+
 
 ### Upcoming Report
 
@@ -28,7 +36,11 @@ nav_order: 3
 - Power supply solutions to make the Rasp. Pi portable using external batteries and solar power. 
 - Requirements of the LoRa interface, especially when connected with a Raspberry-Pi.
 
-## Post-Meeting
+---
+
+
+
+### Post-Meeting Decisions
 
 - Add a history/logs page to the web interface
 - Add a scheduling page on the web interface

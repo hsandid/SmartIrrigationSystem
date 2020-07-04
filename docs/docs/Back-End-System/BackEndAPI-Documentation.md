@@ -4,13 +4,15 @@ title: Back-End API Documentation
 parent: Back-End System
 ---
 
-# Back-End API
-
 Current server path will not be displayed here to avoid any abuse. It is still available as a *secret* variable in the *Web Interface* and *Mobile Application* repositories. 
 
-## Available API Calls
 
-### POST ```/signup ```
+
+## API Calls
+
+
+
+#### POST ```/signup ```
 
   - Description: Call allowing new users to sign-up and receive an authentication token/user-id.
 
@@ -36,7 +38,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   
 
-### POST ```/login```
+---
+
+
+
+#### POST ```/login```
 
   - Description: Allows users to log-in based on a verification code. *Currently not included in features*.
 
@@ -62,9 +68,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
 
-  
+---
 
-### POST ```/fields```
+
+
+
+
+#### POST ```/fields```
 
   - Description: Call for users to create a new field
 
@@ -96,7 +106,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   
 
-### GET ```/fields```
+---
+
+
+
+#### GET ```/fields```
 
   - Description: Returns all fields registered by a specific user
 
@@ -126,7 +140,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
 
-### GET ```/fields/<id>```
+---
+
+
+
+#### GET ```/fields/<id>```
 
   - Description: Returns a specific field which belong to the current user
 
@@ -151,9 +169,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
 
-  
+---
 
-### PUT ```/fields/<id>```
+
+
+
+
+#### PUT ```/fields/<id>```
 
   - Description: Updates a field created by the current user
 
@@ -178,9 +200,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
 
-  
+---
 
-### GET ```/irrigation```
+
+
+
+
+#### GET ```/irrigation```
 
   - Description: Returns the irrigation schedule/history for a field
 
@@ -217,11 +243,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
 
-  
 
-- 
 
-### GET ```/irrigation/<irrigation_id>```
+
+
+#### GET ```/irrigation/<irrigation_id>```
 
   - Description: Returns the irrigation schedule/history for a field
 
@@ -247,9 +273,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
 
-  
+---
 
-### PUT ```/irrigation/<irrigation_id>```
+
+
+
+
+#### PUT ```/irrigation/<irrigation_id>```
 
   - Description: Call which allows the user to notify that he irrigated one of his fields
 
@@ -271,9 +301,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
 
-  
+---
 
-### GET ```/tiff/last_updated```
+
+
+
+
+#### GET ```/tiff/last_updated```
 
   - Description : Call to get the time at which the TIFF map was last updated
   - Response body (in *JSON* format) : 
@@ -286,7 +320,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   
 
-### POST ```/app_logs/device```
+---
+
+
+
+
+
+#### POST ```/app_logs/device```
 
   - Description: Get user device model. This will be stored for each user, overwritten at each request
 
@@ -306,7 +346,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   
 
-### POST ```/app_logs/app_lang```
+---
+
+
+
+#### POST ```/app_logs/app_lang```
 
   - Description: Get language to which the application is currently set. This will be stored for each user, overwritten at each request
 
@@ -326,7 +370,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   
 
-### POST ```/app_logs/device_lang```
+---
+
+
+
+#### POST ```/app_logs/device_lang```
 
   - Description: Get language to which the user device is currently set. This will be stored for each user, overwritten at each request
 
@@ -346,7 +394,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   
 
-### POST ```/app_logs/region```
+---
+
+
+
+#### POST ```/app_logs/region```
 
   - Description: Get the current region of the user. This will be stored for each user, overwritten at each request
 
@@ -366,7 +418,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   
 
-### POST ```/app_logs/exit_screen```
+---
+
+
+
+#### POST ```/app_logs/exit_screen```
 
   - Description: Get the screen from where the user exits the application the most frequently. This will be stored for each user, overwritten at each request
 
@@ -386,7 +442,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   
 
-### POST ```/app_logs/ui_errors```
+---
+
+
+
+#### POST ```/app_logs/ui_errors```
 
   - Description:  Periodically check if any UI error occurred when using the application.This will be stored on a system-level. Contents of this list will be added to the list of errors already stored in database
 
@@ -412,7 +472,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   
 
-### POST ```/app_logs/server_errors```
+---
+
+
+
+
+
+#### POST ```/app_logs/server_errors```
 
   - Description: Periodically check if any server error occurred when using the application. This will be stored on a system-level. Contents of this list will be added to the list of errors already stored in database
 
@@ -437,7 +503,12 @@ Current server path will not be displayed here to avoid any abuse. It is still a
   - Response: ```status 204 [NO_CONTENT]```
 
 
-### POST ```/app_logs/lang_change```
+
+---
+
+
+
+#### POST ```/app_logs/lang_change```
 
   - Description: Check if the user has changed the application language manually.This will be stored on a user-level. It will be added to the stored total value, please reset to zero locally after sending request
 
@@ -457,7 +528,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
   
 
-### POST ```/app_logs/ui_response```
+---
+
+
+
+#### POST ```/app_logs/ui_response```
 
   - Description: Get the average UI response time for each user.This will be stored on a user-level. It will be added to the stored total value and a counter of total numbers this response time has been logged will be incremented. Therefore calculating average response time per user.
   

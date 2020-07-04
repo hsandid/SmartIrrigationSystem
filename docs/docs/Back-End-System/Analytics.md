@@ -1,10 +1,14 @@
 ---
 layout: post
-title: Analytics
+title: Analytics Events
 parent: Back-End System
 ---
 
-# Analytics
+All events we want to track in the back-end server and the front-end mobile application/web interface for analytics are displayed here
+
+
+
+
 
 ## Back-end Events
 
@@ -36,6 +40,8 @@ parent: Back-End System
 | Get all irrigations | invalid field id                                             |
 | ET of coordinates   | invalid or missing latitude or longitude                     |
 | ET of coordinates   | latitude or longitude outside of range of tiff file          |
+
+
 
 ## Front-end Events
 

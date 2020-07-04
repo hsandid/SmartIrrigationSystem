@@ -1,6 +1,6 @@
 ---
 layout: default
-title: On-Site Irrigation System
+title: Irrigation System
 has_children : true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Surface Irrigation System
-parent : On-Site Irrigation System
+parent : Irrigation System
 ---
 
 # Surface Irrigation System

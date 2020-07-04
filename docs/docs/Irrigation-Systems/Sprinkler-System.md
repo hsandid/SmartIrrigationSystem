@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Sprinkler Irrigation System
-parent : On-Site Irrigation System
+parent : Irrigation System
 ---
 
 # Sprinkler Irrigation System
