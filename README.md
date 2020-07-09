@@ -1,4 +1,3 @@
-# EECE499- Low-Cost Smart Irrigation System
-This repository contains :
-- Raspberry-Pi scripts
-- Documentation and References for the course's final report
+# Smart Irrigation System
+
+Documentation available [here](https://hsandid.github.io/SmartIrrigationSystem/)
