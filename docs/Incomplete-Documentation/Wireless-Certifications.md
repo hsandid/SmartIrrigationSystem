@@ -1,7 +1,5 @@
 ---
 layout: post
-title: API Calls
-parent: Back-End System
 nav_exclude : true
 ---
 # Wi-Fi Standards Evolution
