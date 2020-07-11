@@ -22,7 +22,3 @@ grand_parent : Smart Irrigation Controller
   - Assuming our board is active 24/7, it would consume <img src="https://render.githubusercontent.com/render/math?math=0.7*24 = 16.8"> Wh/Day
   - We would require our battery to be able to store/provide around 20 Wh/Day
   - We would require a solar panel with enough voltaic cells to support our 20 Wh/Day battery. This would correspond to a small form factor solar panel able to provide 1W or 20Wh/Day
-
-### Practical Example
-
-If possible with the current situation, it would be interesting to obtain a small form-factor solar panel and batteries to test this portable setup for the *Smart Irrigation Controller*

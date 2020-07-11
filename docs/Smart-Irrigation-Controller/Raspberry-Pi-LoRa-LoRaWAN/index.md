@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LoRa & LoRaWAN Technology
+title: LoRa & LoRaWAN
 has_children: true
 parent : Smart Irrigation Controller
 ---

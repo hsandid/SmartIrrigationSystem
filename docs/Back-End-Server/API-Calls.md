@@ -4,19 +4,15 @@ title: API Calls
 parent: Back-End System
 ---
 
-Current server path will not be displayed here to avoid any abuse. It is still available as a *secret* variable in the *Web Interface* and *Mobile Application* repositories. 
+# API Calls
 
+**Disclaimer :**  Our back-end is still under testing. As such, an URI will not be made publicly available until our back-end has been fully tested and deployed on a cloud platform.
 
+## POST ```/signup ```
 
-## API Calls
+  - **Description:** Call allowing new users to sign-up and receive an authentication token/user-id.
 
-
-
-#### POST ```/signup ```
-
-  - Description: Call allowing new users to sign-up and receive an authentication token/user-id.
-
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) :
 
     ```json
     {
@@ -27,7 +23,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
     
 
-    Response body (in *JSON* format) :
+    **Response body**  (in *JSON* format) :
 
     ```json
     {
@@ -42,11 +38,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/login```
+## POST ```/login```
 
-  - Description: Allows users to log-in based on a verification code. *Currently not included in features*.
+  - **Description:** Allows users to log-in based on a verification code. *Currently not included in features*.
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
 
     ```json
     {
@@ -57,7 +53,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
     
 
-  - Response body (in *JSON* format) :
+  - **Response body** (in *JSON* format) :
     
     ```json
     {
@@ -74,13 +70,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/fields```
+## POST ```/fields```
 
-  - Description: Call for users to create a new field
+  - **Description**: Call for users to create a new field
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -96,7 +92,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
     
-  - Response body (in *JSON* format) :
+  - **Response body** (in *JSON* format) :
     
     ```json
     {
@@ -110,13 +106,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### GET ```/fields```
+## GET ```/fields```
 
-  - Description: Returns all fields registered by a specific user
+  - **Description: Returns all fields registered by a specific user
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Response body (in *JSON* format) :
+  - **Response body** (in *JSON* format) :
     
     ```json
     {
@@ -144,13 +140,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### GET ```/fields/<id>```
+## GET ```/fields/<id>```
 
-  - Description: Returns a specific field which belong to the current user
+  - **Description:** Returns a specific field which belong to the current user
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Response body (in *JSON* format) :
+  - **Response body** (in *JSON* format) :
     
     ```json
     {
@@ -175,13 +171,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### PUT ```/fields/<id>```
+## PUT ```/fields/<id>```
 
-  - Description: Updates a field created by the current user
+  - **Description:** Updates a field created by the current user
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -206,11 +202,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### GET ```/irrigation```
+## GET ```/irrigation```
 
-  - Description: Returns the irrigation schedule/history for a field
+  - **Description:** Returns the irrigation schedule/history for a field
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -221,7 +217,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
     
-  - Response body (in *JSON* format) :
+  - **Response body** (in *JSON* format) :
     
     ```json
     {
@@ -247,11 +243,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### GET ```/irrigation/<irrigation_id>```
+## GET ```/irrigation/<irrigation_id>```
 
-  - Description: Returns the irrigation schedule/history for a field
+  - **Description:** Returns the irrigation schedule/history for a field
 
-  - Response body (in *JSON* format) :
+  - **Response body** (in *JSON* format) :
     
     ```json
     {
@@ -279,11 +275,11 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### PUT ```/irrigation/<irrigation_id>```
+## PUT ```/irrigation/<irrigation_id>```
 
-  - Description: Call which allows the user to notify that he irrigated one of his fields
+  - **Description:** Call which allows the user to notify that he irrigated one of his fields
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -307,10 +303,10 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### GET ```/tiff/last_updated```
+## GET ```/tiff/last_updated```
 
-  - Description : Call to get the time at which the TIFF map was last updated
-  - Response body (in *JSON* format) : 
+  - **Description :** Call to get the time at which the TIFF map was last updated
+  - **Response body** (in *JSON* format) : 
 
   ```json
   {
@@ -326,13 +322,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/app_logs/device```
+## POST ```/app_logs/device```
 
-  - Description: Get user device model. This will be stored for each user, overwritten at each request
+  - **Description:** Get user device model. This will be stored for each user, overwritten at each request
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -342,7 +338,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
     
-  - Response: ```status 204 [NO_CONTENT]```
+  - **Response:** ```status 204 [NO_CONTENT]```
 
   
 
@@ -350,13 +346,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/app_logs/app_lang```
+## POST ```/app_logs/app_lang```
 
-  - Description: Get language to which the application is currently set. This will be stored for each user, overwritten at each request
+  - **Description:** Get language to which the application is currently set. This will be stored for each user, overwritten at each request
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -366,7 +362,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
     
-  - Response: ```status 204 [NO_CONTENT]```
+  - **Response:** ```status 204 [NO_CONTENT]```
 
   
 
@@ -374,13 +370,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/app_logs/device_lang```
+## POST ```/app_logs/device_lang```
 
-  - Description: Get language to which the user device is currently set. This will be stored for each user, overwritten at each request
+  - **Description:** Get language to which the user device is currently set. This will be stored for each user, overwritten at each request
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -390,7 +386,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
     
-  - Response: ```status 204 [NO_CONTENT]```
+  - **Response:** ```status 204 [NO_CONTENT]```
 
   
 
@@ -398,13 +394,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/app_logs/region```
+## POST ```/app_logs/region```
 
-  - Description: Get the current region of the user. This will be stored for each user, overwritten at each request
+  - **Description:** Get the current region of the user. This will be stored for each user, overwritten at each request
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -414,7 +410,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
     
-  - Response: ```status 204 [NO_CONTENT]```
+  - **Response:** ```status 204 [NO_CONTENT]```
 
   
 
@@ -422,13 +418,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/app_logs/exit_screen```
+## POST ```/app_logs/exit_screen```
 
-  - Description: Get the screen from where the user exits the application the most frequently. This will be stored for each user, overwritten at each request
+  - **Description:** Get the screen from where the user exits the application the most frequently. This will be stored for each user, overwritten at each request
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -438,7 +434,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
     
-  - Response: ```status 204 [NO_CONTENT]```
+  - **Response:** ```status 204 [NO_CONTENT]```
 
   
 
@@ -446,13 +442,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/app_logs/ui_errors```
+## POST ```/app_logs/ui_errors```
 
-  - Description:  Periodically check if any UI error occurred when using the application.This will be stored on a system-level. Contents of this list will be added to the list of errors already stored in database
+  - **Description:**  Periodically check if any UI error occurred when using the application. This will be stored on a system-level. Contents of this list will be added to the list of errors already stored in database
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -468,7 +464,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
     
-  - Response: ```status 204 [NO_CONTENT]```
+  - **Response:** ```status 204 [NO_CONTENT]```
 
   
 
@@ -478,13 +474,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/app_logs/server_errors```
+## POST ```/app_logs/server_errors```
 
-  - Description: Periodically check if any server error occurred when using the application. This will be stored on a system-level. Contents of this list will be added to the list of errors already stored in database
+  - **Description:** Periodically check if any server error occurred when using the application. This will be stored on a system-level. Contents of this list will be added to the list of errors already stored in database
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -500,7 +496,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
     
-  - Response: ```status 204 [NO_CONTENT]```
+  - **Response:** ```status 204 [NO_CONTENT]```
 
 
 
@@ -508,13 +504,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/app_logs/lang_change```
+## POST ```/app_logs/lang_change```
 
-  - Description: Check if the user has changed the application language manually.This will be stored on a user-level. It will be added to the stored total value, please reset to zero locally after sending request
+  - **Description:** Check if the user has changed the application language manually. This will be stored on a user-level. It will be added to the stored total value, please reset to zero locally after sending request
 
-  - Required Header : ``` auth_token ```
+  - **Required Header :** ``` auth_token ```
 
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -524,7 +520,7 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     
     
     
-  - Response: ```status 204 [NO_CONTENT]```
+  - **Response:** ```status 204 [NO_CONTENT]```
 
   
 
@@ -532,13 +528,13 @@ Current server path will not be displayed here to avoid any abuse. It is still a
 
 
 
-#### POST ```/app_logs/ui_response```
+## POST ```/app_logs/ui_response```
 
-  - Description: Get the average UI response time for each user.This will be stored on a user-level. It will be added to the stored total value and a counter of total numbers this response time has been logged will be incremented. Therefore calculating average response time per user.
+  - **Description:** Get the average UI response time for each user. This will be stored on a user-level. It will be added to the stored total value and a counter of total numbers this response time has been logged will be incremented. Therefore calculating average response time per user.
   
-  - Required Header : ``` auth_token ```	
+  - **Required Header :** ``` auth_token ```	
   
-  - Request body (in *JSON* format) : 
+  - **Request body** (in *JSON* format) : 
     
     ```json
     {
@@ -546,4 +542,4 @@ Current server path will not be displayed here to avoid any abuse. It is still a
     }
     ```
     
-  - Response: ```status 204 [NO_CONTENT]```
+  - **Response:** ```status 204 [NO_CONTENT]```

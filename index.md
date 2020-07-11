@@ -17,4 +17,3 @@ The *Smart Irrigation System* is composed of three main elements :
 - Smart Irrigation Controller
 
 - Levantine Mobile Application
-

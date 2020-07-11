@@ -11,19 +11,22 @@ grand_parent : Smart Irrigation Controller
 
 - **Processor :** 
 
-  - 1GHz single-core CPU
+  - Broadcom BCM2835, ARM11-76JZF-S @ 1GHz (Single-core processor).
 
   
 
 - **RAM :** 
 
-  - 512MB RAM
+  - 512MB LPDDR2 SDRAM
 
   
 
 - **Interface :** 
 
-  - HAT-compatible 40-pin header
+  - HAT-compatible 40-pin header (*Sold separately*)
+  - GPIO Interface is similar to the Raspberry-Pi 3 Model-B (Picture Attached for Reference)
+
+  ![Raspberry-Pi 3 GPIO Interface](https://www.raspberrypi.org/documentation/usage/gpio/images/gpiozero-pinout.png)
 
   - CSI camera connector (v1.3 only)
   - Mini HDMI port
