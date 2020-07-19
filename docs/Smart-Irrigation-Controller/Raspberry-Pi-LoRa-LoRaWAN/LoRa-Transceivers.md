@@ -38,5 +38,5 @@ grand_parent : Smart Irrigation Controller
 | RAK-Wireless | 868MHz & 915MHz versions available | 25 USD | [Link](https://uk.pi-supply.com/products/rak813-lorab-ble5-and-lora-module-based-on-nrf52832-and-sx127x?_pos=15&_sid=30d832a4c&_ss=r)|
 | RAK-Wireless | 433MHz & 868MHz & 915MHz versions available | 15 USD | [Link](https://uk.pi-supply.com/products/rak811-lora-lorawan-module?_pos=18&_sid=30d832a4c&_ss=r) |
 | REYAX | 868MHz & 915MHz versions available | 20 USD | [Link](https://www.amazon.com/RYLR896-Module-SX1276-Antenna-Command/dp/B07NB3BK5H/ref=sr_1_1?dchild=1&keywords=LoRa&qid=1594195384&rnid=2941120011&s=pc&sr=1-1) |
-| HopeRF  | 915MHz version available | 15 USD | [Link](https://www.amazon.com/RFM95W-915Mhz-Transceiver-SX1276-compatible/dp/B01F6HPWMC) + [Breakout Board](https://www.amazon.com/Adafruit-RFM95W-Radio-Transceiver-Breakout/dp/B01HYO608A/ref=sr_1_2?dchild=1&keywords=LoRa&qid=1594195384&rnid=2941120011&s=pc&sr=1-2) |
+| HopeRF  | 915MHz version available | 15 USD | [Link](https://www.amazon.com/RFM95W-915Mhz-Transceiver-SX1276-compatible/dp/B01F6HPWMC)|
 | Aptinex | 433MHz & 868MHz versions available  | 35 USD | [Link](https://www.amazon.com/Aptinex-LoRaNode-RN2483A-Microchip-LoRaWAN/dp/B01N2RJPMJ/ref=sr_1_4?dchild=1&keywords=LoRa&qid=1594195384&rnid=2941120011&s=pc&sr=1-4) |
