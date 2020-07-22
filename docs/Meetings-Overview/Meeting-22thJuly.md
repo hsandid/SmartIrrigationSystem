@@ -16,6 +16,15 @@ nav_order: 7
 
 ---
 
+### Low-Power mode for the Raspberry-Pi
+
+- No built-in low-power mode
+- We can use an external clock module, but it doesn't allow for much user freedom in setting intervals...
+
+### Flow meters
+
+- Any update on the flow meters ?
+
 ### GSM module for the Raspberry-Pi
 
 - Research related to GSM modules is available [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Smart-Irrigation-Controller/Raspberry-Pi-GSM/).
@@ -23,7 +32,8 @@ nav_order: 7
 ### Smart Irrigation Controller Diagram
 
 - Diagram available [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Smart-Irrigation-Controller/).
+- Should be useful for the internship report.
 
 ### Web Interface overview
 
-- Web Interface Prototype is available [here.](https://hsandid.github.io/SmartIrrigationController-WebInterface/)
+- Web Interface Prototype is available [here](https://hsandid.github.io/SmartIrrigationController-WebInterface/).
