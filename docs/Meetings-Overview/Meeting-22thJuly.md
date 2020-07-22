@@ -9,8 +9,8 @@ nav_order: 7
 
 ### Work Completed during this Week
 
-- Research on GSM module compatible with the Raspberry-Pi
-- Smart Irrigation Controller Diagram
+- Research on GSM module compatible with the Raspberry-Pi. Available [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Smart-Irrigation-Controller/Raspberry-Pi-GSM/)
+- Smart Irrigation Controller Diagram. Available [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Smart-Irrigation-Controller/).
 - Research on low-power mode for the Raspberry-Pi
 
 ---
