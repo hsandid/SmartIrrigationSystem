@@ -13,7 +13,7 @@ parent : Smart Irrigation Controller
 
 
 
-### **Type-1, Pi-Hat GSM Module:
+### **Type-1, Pi-Hat GSM Module:**
 
 - Pi-Hats modules are designed to be compatible with the GPIO interface of the Raspberry-Pi.
 - **IMPORTANT** : How many pins does each Pi-Hat model require ? If the Pi-Hat uses too much pins, we might not be able to connect the Raspberry-Pi to other components (i.e. flow meters, LoRa modules...).
@@ -25,7 +25,7 @@ parent : Smart Irrigation Controller
 
 ---
 
-**Type-2, GSM Module**
+### **Type-2, GSM Module**
 
 - General purpose modules that communicate over UART\I2C\SPI
 
