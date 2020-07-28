@@ -2,6 +2,7 @@
 layout: post
 parent: Powering the Pi
 title:  Power Requirements of the Raspberry-Pi
+nav_order : 1
 grand_parent : Smart Irrigation Controller
 ---
 
@@ -40,9 +41,7 @@ We know that the Raspberry-Pi requires an input voltage of 5V. We will now see h
 | Raspberry-Pi Zero | Maximum CPU Load | 240 mA (1.2 W) |
 | Raspberry-Pi Zero | Minimal CPU Load | 40 mA (0.2 W) |
 
-**Note** : A powered-off Raspberry-Pi board (  all models included ) consumes around 0.1W until it is disconnected from its power source.
-
-
+**Note** : All Raspberry-Pi models consume around 0.1W when powered off, until they are disconnected from their power source.
 
 # Source
 
