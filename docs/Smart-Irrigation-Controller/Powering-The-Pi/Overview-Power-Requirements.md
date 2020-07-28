@@ -10,13 +10,13 @@ grand_parent : Smart Irrigation Controller
 
 The Raspberry-Pi can be powered in two ways :  
 
-1. Through its Micro-USB port, with a recommended input voltage of 5V input current of 2A.
+- **(1)** Through its Micro-USB port, with a recommended input voltage of 5V input current of 2A.
 
-![Micro-USB Power](..\..\..\assets\images\Pi-Micro-USB.PNG)
+![Micro-USB Power](../../../assets/images/Pi-Micro-USB.PNG)
 
-1. Through it's GPIO interface by plugging a 5V source to Pin #2 on the GPIO header, and the ground of this 5V source to Pin #6 on the GPIO header.
+- **(2)** Through it's GPIO interface by plugging a 5V source to Pin #2 on the GPIO header, and the ground of this 5V source to Pin #6 on the GPIO header.
 
-![GPIO Power](..\..\..\assets\images\Diagram-Powering-The-Pi-Through-GPIO.PNG)
+![GPIO Power](../../../assets/images/Diagram-Powering-The-Pi-Through-GPIO.PNG)
 
 - **Warning** : The recommended method of powering the Raspberry-Pi is through its Micro-USB port, as it offers regulation and fuse protection to protect from over-voltage and current spikes. **There is no regulation and fuse protection on the GPIO Interface** meaning that any over-voltage, current spikes, or reverse polarization might fry the GPIO interface, or worse, the Pi itself.
 

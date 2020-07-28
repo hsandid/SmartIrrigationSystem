@@ -18,7 +18,7 @@ The following components are essential for the *Smart Irrigation Controller* to 
 
 - LoRa Transceiver OR GSM Module, any additional device connected to the GPIO interface for Irrigation control (i.e. flow meters...).
 
-The following hardware components of the Raspberry-Pi are not required for the *Smart Irrigation Controller*, and will be disabled to conserve power :
+The following hardware components of the Raspberry-Pi are not required for the *Smart Irrigation Controller*, and will be disabled through software to conserve power :
 
 - HDMI Port - USB Ports - Wi-Fi device - Bluetooth Device - CSI camera port - DSI display port - 4-pole stereo output and composite video port - On-board LEDs
 
