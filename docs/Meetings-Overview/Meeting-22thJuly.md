@@ -11,18 +11,12 @@ nav_order: 7
 
 - Research on GSM module compatible with the Raspberry-Pi. Available [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Smart-Irrigation-Controller/Raspberry-Pi-GSM/)
 - Smart Irrigation Controller Diagram. Available [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Smart-Irrigation-Controller/).
-- Research on low-power mode for the Raspberry-Pi
 
 ---
 
-### Low-Power mode for the Raspberry-Pi
-
-- No built-in low-power mode
-- We can use an external clock module, but it doesn't allow for much user freedom in setting intervals...
-
 ### Flow meters
 
-- Any update on the flow meters ?
+- Discuss the usage of flow meter with the *Smart Irrigation Controller*.
 
 ### GSM module for the Raspberry-Pi
 
