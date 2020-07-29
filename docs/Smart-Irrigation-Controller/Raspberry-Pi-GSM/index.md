@@ -8,6 +8,9 @@ parent : Smart Irrigation Controller
 
 - To allow our Raspberry-Pi board to receive\transmit data over cellular network, we must equip it with a GSM transceiver.
 - All models listed here require a SIM card with an active mobile broadband subscription.
+- Here is a reference of cellular network technologies and their associated bandwidth speed :
+
+![Cellular Technologies](../../../assets/images/Table-Cellular-Technology-Speed.png)
 
 ---
 
@@ -44,3 +47,7 @@ parent : Smart Irrigation Controller
 - Mobile Broadband bundles
   - All Alfa Mobile Broadband plans are available [here](https://www.alfa.com.lb/en/mobile-broadband/about)
   - All MTC Mobile Broadband plans are available [here](https://www.touch.com.lb/autoforms/portal/touch/personal/internet-offers/residentialbroadband/tariffs)
+
+# Source 
+
+- [Ken's Tech Tips - Cellular Networks Technologies](https://kenstechtips.com/index.php/download-speeds-2g-3g-and-4g-actual-meaning)
