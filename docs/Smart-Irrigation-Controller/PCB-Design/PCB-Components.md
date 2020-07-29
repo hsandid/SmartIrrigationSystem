@@ -3,6 +3,7 @@ layout: post
 parent: PCB Design
 title:  PCB Components
 nav_order : 1
+has_children : true
 grand_parent : Smart Irrigation Controller
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: PCB Design
+has_children : true
 parent : Smart Irrigation Controller
 ---
 
