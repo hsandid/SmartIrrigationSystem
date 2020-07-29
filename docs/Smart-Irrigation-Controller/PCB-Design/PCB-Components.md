@@ -9,6 +9,8 @@ grand_parent : Smart Irrigation Controller
 
 # PCB Components used in our Prototype
 
+Full list of items in *txt* format can be downloaded [here](../../../assets/zip/PCB-Components.zip).
+
 ---
 
 ## LoRa UART\SPI Transceiver 
@@ -70,9 +72,17 @@ grand_parent : Smart Irrigation Controller
 
 ---
 
+## Connector Pin Socket 40-Pins
+
+- Name : PPTC202LFBN-RC 
+- DigiKey Store [Link](https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC202LFBN-RC/S6104-ND/807240)
+- Datasheet [Link](https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf)
+
+---
+
 # TBD
 
-- Connector Pin Male ?-Pins.
+- Connector Header with 40-pins 
 - Current Limiting Resistors (Must account for 3V3 and 5V supplies on the Raspberry-Pi GPIO header).
 - Battery\Solar Panel system connected to the PCB
 - EEPROM memory, so it has an ID to identify the board.
