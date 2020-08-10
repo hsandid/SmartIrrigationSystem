@@ -1,0 +1,61 @@
+>>> Parts Used (DigiKey):
+
+>>> LoRa UART & SPI:
+
+Name : MTXDOT-EU1-A00-1
+Dimensions : 23.62 x 23.62 x 3.51 mm ( Length x Width x Height )
+Operating Frequency : 868MHz
+Serial Interfaces : UART, SPI and I2C
+Operating Voltage : 2.4 to 3.57 V ( We can use a 3V3 pin on the Pi)
+DigiKey Store Link : https://www.digikey.com/product-detail/en/multi-tech-systems-inc/MTXDOT-EU1-A00-1/591-1292-ND/6237035
+Datasheet : https://www.multitech.com/documents/publications/manuals/s000645.pdf
+SYMBOL & FOOTPRINT & 3D MODEL PULLED
+
+>>> Antenna Connector for LoRa 868MHz:
+
+Name : ANT-868-SP 
+Dimensions :  27.94 x 13.7 x 1.5 mm ( Length x Width x Height )
+DigiKey Store Link : https://www.digikey.com/product-detail/en/linx-technologies-inc/ANT-868-SP/ANT-868-SP-ND/340128
+Datasheet : https://linxtechnologies.com/wp/wp-content/uploads/ant-868-sp.pdf
+SYMBOL & FOOTPRINT & NO 3D MODEL
+
+>>> GSM UART :
+
+Name : NL-SW-GPRS
+Protocol : 2G/3G GPRS/GSM
+Frequencies : 850MHz, 900MHz, 1.8GHz, 1.9GHz 
+Dimensions : 29.0 x​​ 33.60​​ x​​ 6.63 mm
+Serial Interface : UART
+Antenna included ? : No
+Operating Votage : 3.5V ~ 4.3V 
+Current - Receiving : 330mA 
+Current - Transmitting : 330mA 
+DigiKey Store Link : https://www.digikey.com/product-detail/en/nimbelink-llc/NL-SW-GPRS/1477-1003-ND/4573470
+Datasheet : https://nimbelink.com/Documentation/Skywire/2G_GPRS/30007_NL-SW-GPRS_Datasheet.pdf
+SYMBOL & FOOTPRINT & 3D MODEL PULLED
+
+>>> Antenna Connector for GSM Module:
+
+Name : TG.30.8113 
+DigiKey Store Link : https://www.digikey.com/product-detail/en/taoglas-limited/TG.30.8113/931-1213-ND/3724547
+Datasheet : https://cdn.taoglas.com/datasheets/TG.30.8113.pdf
+
+>>> Demultiplexer
+
+Name : 74LVC1G18GW,125
+Dimensions : 2.2 x 2.2 x 1.1 mm ( Length x Width x Height )
+Operating Votage : 1.65V ~ 5.5V 
+DigiKey Store Link : https://www.digikey.com/product-detail/en/nexperia-usa-inc/74LVC1G18GW-125/1727-6071-1-ND/2753907
+Datasheet : https://assets.nexperia.com/documents/data-sheet/74LVC1G18.pdf
+SYMBOL & FOOTPRINT & NO 3D MODEL !!
+
+>>> Connector Pin Female 40-Pins :
+
+Name : PPTC202LFBN-RC 
+DigiKey Store Link : https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC202LFBN-RC/S6104-ND/807240
+Datasheet : https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+
+Connector Pin Male ?-Pins :
+
+
+Current Limiting Resistors (account for 3V3 and 5V)
