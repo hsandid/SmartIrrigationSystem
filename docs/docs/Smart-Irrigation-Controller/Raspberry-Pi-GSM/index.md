@@ -10,7 +10,7 @@ parent : Smart Irrigation Controller
 - All models listed here require a SIM card with an active mobile broadband subscription.
 - Here is a reference of cellular network technologies and their associated bandwidth speed :
 
-![Cellular Technologies](../../../assets/images/Table-Cellular-Technology-Speed.png)
+![Cellular Technologies](../../../assets/images/Table-Cellular-Technology-Speed.PNG)
 
 ---
 

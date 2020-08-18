@@ -42,7 +42,7 @@ grand_parent : Smart Irrigation Controller
 
 | Company | Model | # of Channels | Operating Frequency | Price |
 | ------- | ----- | -------- | ---------- | ------|
-| Pi-Supply | [LoRa Gateway HAT for Raspberry Pi](https://www.thethingsnetwork.org/marketplace/product/iot-lora-gateway-hat-for-raspberry-pi-868-mhz) | Up-to 8 channels | 868\915MHz Support | Around 160 USD|
+| Pi-Supply | [LoRa Gateway HAT for Raspberry Pi](https://uk.pi-supply.com/products/iot-lora-gateway-hat-for-raspberry-pi) | Up-to 8 channels | 868\915MHz Support | Around 160 USD|
 | Adafruit | [LoRa Gateway Hat - SX1301 Based](https://www.adafruit.com/product/4284) | Up-to 8 channels | 915MHz Support | 150 USD |
 | RAK-Wireless | [RAK2245 RPi HAT Edition](https://store.rakwireless.com/products/rak2245-pi-hat?variant=26653392502884)| Up-to 8 channels | 868MHz Support | 120 USD |
 
