@@ -1,3 +1,8 @@
+---
+layout: post
+nav_exclude : true
+---
+
 # Components to Order for the Prototype
 
 - LoRaWAN Gateway System, operating on EU868 ISM Band (2pc)

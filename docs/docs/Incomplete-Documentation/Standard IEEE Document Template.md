@@ -1,3 +1,8 @@
+---
+layout: post
+nav_exclude : true
+---
+
 # Standard IEEE Requirements Document
 
 Source : *Embedded Microprocessor Systems Design* Course, supervised by Dr. Mazen Saghir.
