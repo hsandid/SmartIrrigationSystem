@@ -7,7 +7,7 @@ grand_parent : Smart Irrigation Controller
 
 # Raspberry-Pi Zero Specifications
 
-![Raspberry-Pi Zero ](https://www.raspberrypi.org/homepage-9df4b/static/65b0d08abaa609951b5a64529cc7f455/052d8/6b0defdbbf40792b64159ab8169d97162c380b2c_raspberry-pi-zero-1-1755x1080.jpg)
+![Raspberry-Pi Zero ](https://images-na.ssl-images-amazon.com/images/I/61WK8C9pz8L._AC_SY355_.jpg)
 
 - **Processor :** 
 

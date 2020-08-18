@@ -7,7 +7,7 @@ grand_parent : Smart Irrigation Controller
 
 # Raspberry-Pi 3 - Model B Specifications
 
-![Image of Rasp3 modelB](https://www.raspberrypi.org/homepage-9df4b/static/3198932bc370441e554eb72e9713e12b/052d8/67d8fcc5b2796665a45f61a2e8a5bb7f10cdd3f5_raspberry-pi-3-1-1619x1080.jpg)
+![Image of Rasp3 modelB](https://images-na.ssl-images-amazon.com/images/I/71EPckcD8ZL._AC_SL1244_.jpg)
 
 - **Processor :** 
 
