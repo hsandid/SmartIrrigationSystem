@@ -10,7 +10,7 @@ nav_order: 11
 ### Work Completed during this Week
 
 - Selecting PCB components to order
-   - List of components is available [here]()
+   - List of components is available [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Incomplete-Documentation/Components-to-Order/)
 
 - Final Deliverable for the Internship
   - I have started writing a design document summarizing my work on the Smart Irrigation Controller. It is still largely incomplete
@@ -19,7 +19,7 @@ nav_order: 11
    - There doesn't to be a common pattern amongst breakout board for LoRa transceivers and GSM modules, so I based my design on the following components :
      - LoRa Transceiver : *MTXDOT-EU1-A00-1*
      - GSM Module : *NL-SW-GPRS*
-   - Updated version of the PCB design can be found [here]()
+   - Updated version of the PCB design can be found [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Smart-Irrigation-Controller/PCB-Design/Schematic-and-PCB%20Layout-v02/)
 
 ### PCB Board Re-design
 
@@ -27,7 +27,7 @@ nav_order: 11
 
 ### Final Deliverable for the Internship
 
-- This design document follows the Standard IEEE requirement document outline, which I have added [here]() (*Credits : Dr. Mazen Saghir, EECE425 - Embedded Microprocessor Systems Design*) 
+- This design document follows the Standard IEEE requirement document outline, which I have added [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Incomplete-Documentation/Standard%20IEEE%20Document%20Template/) (*Credits : Dr. Mazen Saghir, EECE425 - Embedded Microprocessor Systems Design*) 
 - Topics I have started covering :
   - Performance and expected power usage of the Raspberry-Pi model we are using in our prototype (Raspberry-Pi 3 Model B).
   - Specify all open-source and licensed software we are using, and which we will package into a standalone image to use with our *Smart Irrigation Controller*.
