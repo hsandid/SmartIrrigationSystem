@@ -5,7 +5,7 @@ parent: Meetings Overview
 nav_order: 11
 ---
 
-# Meeting #11 - August 29th
+# Meeting #11 - August 19th
 
 ### Work Completed during this Week
 
