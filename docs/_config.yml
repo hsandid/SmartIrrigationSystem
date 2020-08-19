@@ -6,6 +6,7 @@ permalink: pretty
 # exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 repository: "hsandid/SmartIrrigationSystem"
 markdown: GFM
+heading_anchors: false
 
 # theme: "just-the-docs"
 remote_theme: pmarsceill/just-the-docs
