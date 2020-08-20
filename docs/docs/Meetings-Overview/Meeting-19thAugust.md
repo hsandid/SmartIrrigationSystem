@@ -35,6 +35,8 @@ nav_order: 11
   - Compatibility issues & region our *Smart Irrigation Controller* is targeted at.
   - Web Interface for the *Smart Irrigation Controller*.
   - Planned use of the Levantine Mobile Application to control the *Smart Irrigation Controller*.
+  - Add diagrams representing the systems and how its different components communicate.
+  - Talk about the back-end system, explain its API calls and talk about analytics.
 
 ### Formalities related to Internship
 
