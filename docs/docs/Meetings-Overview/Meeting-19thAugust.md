@@ -27,7 +27,7 @@ nav_order: 11
 
 ### Final Deliverable for the Internship
 
-- This design document follows the Standard IEEE requirement document outline, which I have added [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Incomplete-Documentation/Standard%20IEEE%20Document%20Template/) (*Credits : Dr. Mazen Saghir, EECE425 - Embedded Microprocessor Systems Design*) 
+- This design document follows the Standard IEEE requirement document outline, which I have added [here](https://hsandid.github.io/SmartIrrigationSystem/docs/Incomplete-Documentation/Standard-IEEE-Document-Template/) (*Credits : Dr. Mazen Saghir, EECE425 - Embedded Microprocessor Systems Design*) 
 - Topics I have started covering :
   - Performance and expected power usage of the Raspberry-Pi model we are using in our prototype (Raspberry-Pi 3 Model B).
   - Specify all open-source and licensed software we are using, and which we will package into a standalone image to use with our *Smart Irrigation Controller*.
