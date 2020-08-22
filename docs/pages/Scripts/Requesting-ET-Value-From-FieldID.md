@@ -9,7 +9,7 @@ folder: Scripts
 ---
 
 - Script can be downloaded [here](../../scripts/FieldID_ETRequest.py).
-- `<BACKEND_URL` must be modified to match the current URL the server is assigned to.
+- `BACKEND_URL` must be modified to match the current URL the server is assigned to.
 
 ```python
 #Import the RPi.GPIO library
