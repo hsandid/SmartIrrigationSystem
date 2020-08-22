@@ -126,3 +126,7 @@ entries:
     - title: IEEE Design Document Template
       url: /ieee-document-template.html
       output: web
+      
+    - title: Final Report Structure
+      url: /final-report-structure.html
+      output: web
