@@ -7,6 +7,7 @@ sidebar: documentation_sidebar
 permalink: drip-irrigation-system.html
 folder: Targeted-Irrigation-Systems
 ---
+## Overview
 
 Drip irrigation is a technique in which water flows through a filter into special drip pipes, with emitters located at different spacing. Water is distributed through the emitters directly into the soil near the roots through a special slow-release device. Water can be more precisely applied to the plant roots, compared to other irrigation systems. Drip irrigation is adaptable to any farmable slope and is suitable for most soils.
 

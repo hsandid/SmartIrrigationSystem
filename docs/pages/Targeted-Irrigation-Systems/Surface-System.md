@@ -8,6 +8,8 @@ permalink: surface-irrigation-system.html
 folder: Targeted-Irrigation-Systems
 ---
 
+## Overview
+
 Surface irrigation is mainly divided in basin, border, and furrow systems. It is widely utilized and therefore a well-known system, which  can be operated without any high-tech applications. In general, it is more labor intensive than other irrigation methods. Proper design of  surface irrigation systems takes into account the soil type (texture and intake rate), slope, levelness of the field, stream size, and length of run. It is generally more difficult to obtain high uniformity of water  distribution in long fields on coarse textured soils (gravel and sands)  than on fine textured soils (loams to clay) (HILL 2008).
 
 *Example of a Surface Irrigation System :*
