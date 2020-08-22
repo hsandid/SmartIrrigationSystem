@@ -17,6 +17,14 @@ entries:
     - title: Python3 - 'RPI.GPIO' Library
       url: /Py-RPI-GPIO-Library.html
       output: web
+      
+    - title: Python3 - Requesting ET Value from Field ID
+      url: /Requesting-ET-Value-From-FieldID.html
+      output: web
+      
+    - title: Python - Requesting ET Value from Latitude & Longitude Information
+      url: /Requesting-ET-Value-From-LatLon.html
+      output: web
 
   - title: PCB Design
     output: web
