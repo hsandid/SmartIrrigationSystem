@@ -18,6 +18,8 @@ folder: PCB-Design
 - 40 Pins Male Connector (3pc)
 - 40 Pins Female Connector (3pc)
 
+*Table of components can be downloaded in spreadsheet format [here](../../zip/OrderComponentsV02.zip)*
+
 ### LoRaWAN Gateway Module
 
 - Number of supported channels : Up-to 8 channels
@@ -32,7 +34,7 @@ folder: PCB-Design
 
 - Serial Interface Support : UART
 - Frequency Supported : Should operate on the same ISM band as our selected LoRaWAN Gateway, in this case ISM band EU868.
-- *Proposed Model* : Digikey (868MHz Support) (https://www.digikey.com/product-detail/en/multi-tech-systems-inc/MTXDOT-EU1-A00-1/591-1292-ND/6237035). This module is compatible with an U.FL antenna, which must be bought separetely.
+- *Proposed Model* : Digikey (868MHz Support) (https://www.digikey.com/product-detail/en/multi-tech-systems-inc/MTXDOT-EU1-A00-1/591-1292-ND/6237035). This module is compatible with an U.FL antenna, which must be bought separately.
 
 ### 868MHz U.FL Antenna for the LoRa Transceiver
 - No specific request for this component.
