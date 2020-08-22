@@ -1,0 +1,22 @@
+# Wi-Fi Standards Evolution
+
+- - 802.11b - *1999*
+    - 2.4 GHz frequency
+    - Bandwidth rate of 11 Mbps
+    - Range of 45 meters
+  - 802.11a - *1999*
+    - 5 GHz frequency
+    - Bandwidth rate of 54 Mbps
+    - Range of 30 meters
+  - 802.11g - *2003*
+    - 2.4 GHz frequency
+    - Bandwidth rate of 54 Mbps
+    - Range of 45 meters
+  - 802.11n - *2009*
+    - 2.4/5 GHz frequency
+    - Bandwidth rate of 300 Mbps
+    - Range of 50 meters
+  - 802.11ac - *2014*
+    - 5 GHz frequency
+    - Bandwidth rate of 433 Mbps and up
+    - Range of 50 meters

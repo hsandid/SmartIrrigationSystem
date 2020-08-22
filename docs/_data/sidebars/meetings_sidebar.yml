@@ -1,0 +1,40 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Logs/History
+  version: 
+  folders:
+
+
+  - title: Meetings
+    output: web
+    folderitems:
+    
+    - title: August 19th, 2020
+      url: /Meeting-19thAugust.html
+      output: web
+         
+    - title: July 22th, 2020
+      url: /Meeting-22thJuly.html
+      output: web
+      
+    - title: July 15th, 2020
+      url: /Meeting-15thJuly.html
+      output: web
+
+    - title: June 30th, 2020
+      url: /Meeting-30thJune.html
+      output: web
+      
+    - title: June 23th, 2020
+      url: /Meeting-23thJune.html
+      output: web
+      
+    - title: June 15th, 2020
+      url: /Meeting-15thJune.html
+      output: web
+      
+    - title: June 8th, 2020
+      url: /Meeting-8thJune.html
+      output: web

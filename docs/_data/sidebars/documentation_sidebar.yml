@@ -1,0 +1,128 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Documentation
+  version: 
+  folders:
+
+  - title: Scripts/Source Code
+    output: web
+    folderitems:
+    
+    - title: Python3 - 'Requests' Library
+      url: /Py-Requests-Library.html
+      output: web
+         
+    - title: Python3 - 'RPI.GPIO' Library
+      url: /Py-RPI-GPIO-Library.html
+      output: web
+
+  - title: PCB Design
+    output: web
+    folderitems:
+    
+    - title: PCB Components (V01)
+      url: /PCB-BOM-v01.html
+      output: web
+         
+    - title: Schematic and PCB Layout (V01)
+      url: /PCB-Schematic-Layout-V01.html
+      output: web
+      
+    - title: PCB Components (V02)
+      url: /PCB-BOM-v02.html
+      output: web
+      
+    - title: Schematic and PCB Layout (V02)
+      url: /PCB-Schematic-Layout-V02.html
+      output: web
+
+  - title: GSM Connectivity
+    output: web
+    folderitems:
+    
+    - title: Selecting GSM Module
+      url: /selecting-a-gsm-module.html
+      output: web
+      
+  - title: LoRa & LoRaWAN Connectivity
+    output: web
+    folderitems:
+    
+    - title: Overview
+      url: /overview-lora-lorawan.html
+      output: web
+         
+    - title: Selecting LoRa Transceiver
+      url: /selecting-lora-transceiver.html
+      output: web
+      
+    - title: Selecting LoRaWAN Gateway
+      url: /selecting-lorawan-gateway.html
+      output: web
+
+  - title: Back-End Server
+    output: web
+    folderitems:
+    - title: API Calls
+      url: /back-end-api-calls.html
+      output: web
+      
+    - title: Analytics
+      url: /back-end-analytics.html
+      output: web
+      
+  - title: Raspberry-Pi Hardware
+    output: web
+    folderitems:
+    
+    - title: Raspberry-Pi 3 Model B
+      url: /Raspberry-Pi-3-Model-B.html
+      output: web
+         
+    - title: Raspberry-Pi Zero
+      url: /Raspberry-Pi-Zero.html
+      output: web
+
+  - title: Powering the System
+    output: web
+    folderitems:
+    
+    - title: Overview
+      url: /Overview-Power-Usage.html
+      output: web
+         
+    - title: Lowering the System's Power Consumption
+      url: /Lowering-The-System-Power-Consumption.html
+      output: web
+      
+    - title: Using Solar Power
+      url: /Using-Solar-Power.html
+      output: web
+
+
+  - title: Targeted Irrigation Systems
+    output: web
+    folderitems:
+    
+    - title: Drip Irrigation System
+      url: /drip-irrigation-system.html
+      output: web
+         
+    - title: Sprinkler Irrigation System
+      url: /sprinkler-irrigation-system.html
+      output: web
+      
+    - title: Surface Irrigation System
+      url: /surface-irrigation-system.html
+      output: web
+      
+
+  - title: Final Report for EECE-500
+    output: web
+    folderitems:
+    
+    - title: IEEE Design Document Template
+      url: /ieee-document-template.html
+      output: web
