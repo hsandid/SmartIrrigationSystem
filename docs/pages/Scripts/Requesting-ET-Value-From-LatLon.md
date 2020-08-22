@@ -10,6 +10,7 @@ folder: Scripts
 
 - Script can be downloaded [here](../../scripts/LatLon_ETRequest.py).
 - `BACKEND_URL` must be modified to match the current URL the server is assigned to.
+- `LAT` and `LON` must be valid latitude and longitude coordinates which are located in Lebanon.
 
 ```python
 #Import the RPi.GPIO library
@@ -37,7 +38,7 @@ GPIO.output(3,GPIO.LOW)
 
   
 #Defining the API-endpoint  
-API_ENDPOINT = "<BACKEND_URL>/tiff/coordinates_to_et?latitude=33.244646&longitude=35.386042"
+API_ENDPOINT = "<BACKEND_URL>/tiff/coordinates_to_et?latitude=<LAT>&longitude=<LON>"
 
 #Defining Headers
 headers = {'Content-Type' : 'application/json'}

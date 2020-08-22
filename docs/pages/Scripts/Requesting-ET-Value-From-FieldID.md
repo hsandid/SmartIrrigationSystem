@@ -10,6 +10,7 @@ folder: Scripts
 
 - Script can be downloaded [here](../../scripts/FieldID_ETRequest.py).
 - `BACKEND_URL` must be modified to match the current URL the server is assigned to.
+- `FIELD_ID` must match an existing Field ID on the back-end's database
 
 ```python
 #Import the RPi.GPIO library
@@ -37,7 +38,7 @@ GPIO.output(3,GPIO.LOW)
 
   
 #Defining the API-endpoint  
-API_ENDPOINT = "<BACKEND_URL>/tiff/coordinates_to_et/0D2o42T4238dVssuBEdg"
+API_ENDPOINT = "<BACKEND_URL>/tiff/coordinates_to_et/<FIELD_ID>"
 
 #Defining Headers
 headers = {'Content-Type' : 'application/json'}
