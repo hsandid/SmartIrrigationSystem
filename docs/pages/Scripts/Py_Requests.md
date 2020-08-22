@@ -12,31 +12,31 @@ folder: Scripts
 ## Basic requests
 - Importing the 'requests' library
 
-```py
+```python
 import requests
 ```
 
 - GET request
 
-```py
+```python
 requests.get(<URI>)
 ```
 
 - POST request
 
-```py
+```python
 requests.post(<URI>,<DATA>)
 ```
 
 - PUT request
 
-```py
+```python
 requests.put(<URI>,<DATA>)
 ```
 
 - DELETE request
 
-```py
+```python
 requests.delete(<URI>)
 ```
 
@@ -47,7 +47,7 @@ requests.delete(<URI>)
 
 - GET request with custom parameters
 
-```py
+```python
 payload = {'key1': 'value1', 'key2': 'value2'}
 r = requests.get(<URI>, params=payload)
 ```
@@ -58,7 +58,7 @@ r = requests.get(<URI>, params=payload)
 
 - GET request with custom headers
 
-```py
+```python
 url = 'https://api.github.com/some/endpoint'
 customHeaders = {'user-agent': 'my-app/0.0.1'}
 r = requests.get(<URI>, headers = customHeaders)
@@ -70,7 +70,7 @@ r = requests.get(<URI>, headers = customHeaders)
 
 - GET request with a JSON response
 
-```py
+```python
 r = requests.get('https://api.github.com/events')
 jsonResponse = r.json()
 print(jsonResponse[<JSONFIELD>])

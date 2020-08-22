@@ -14,12 +14,12 @@ folder: Scripts
 
 - Importing the 'RPi.GPIO' library
 
-```py
+```python
 import RPi.GPIO
 ```
 - Select a pin numbering system
 
-```py
+```python
 #BOARD numbering system
 GPIO.setmode(GPIO.BOARD)
 
@@ -27,7 +27,7 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setmode(GPIO.BCM)
 ```
 - Configure channel as an input:
-```py
+```python
 #With Pull-up resistor
 GPIO.setup(channel, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
@@ -35,7 +35,7 @@ GPIO.setup(channel, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(channel, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 ```
 - Configure channel as an output:
-```py
+```python
 GPIO.setup(channel, GPIO.OUT)
 ```
 ---
@@ -44,18 +44,18 @@ GPIO.setup(channel, GPIO.OUT)
 
 
 - (Input) Poll GPIO pins
-```py
+```python
 if GPIO.input(channel):
     print('Input was HIGH')
 else:
     print('Input was LOW')
 ```
 - (Input) Input detection using Wait_for_edge() function
-```py
+```python
 GPIO.wait_for_edge(channel, GPIO.RISING)
 ```
 - (Output) Set GPIO pin as high/low
-```py
+```python
 #Set output as high
 GPIO.output(<CHANNEL>, GPIO.HIGH)
 
@@ -68,7 +68,7 @@ GPIO.output(<CHANNEL>, GPIO.LOW)
 
 
 To cleanup any used resources, you can call the following : 
-```py
+```python
 GPIO.cleanup()
 ```
 

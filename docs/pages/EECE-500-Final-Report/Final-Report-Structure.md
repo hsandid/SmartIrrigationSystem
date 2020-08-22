@@ -4,7 +4,7 @@ keywords:
 last_updated: 
 tags: 
 sidebar: documentation_sidebar
-permalink: final-report-topics.html
+permalink: final-report-structure.html
 folder: EECE-500-Final-Report
 ---
 
