@@ -45,17 +45,17 @@ folder: PCB-Design
 - Technology Support : E-GSM, which operates at 900MHz frequency in Lebanon
 - *Proposed Model* :  Digikey (2G) (https://www.digikey.com/product-detail/en/nimbelink-llc/NL-SW-GPRS/1477-1003-ND/4573470). This module is compatible with an U.FL antenna, which must be bought separately. Our antenna should support the 900MHz frequency, which is related to 2G/EDGE technology for data services.
 
-### (5) 900MHz U.FL Antenna for the GSM Module 
+### 900MHz U.FL Antenna for the GSM Module 
 - No specific request for this component.
 - No Proposed Model
 
-### (6) 40 Pins Male Connector
+### 40 Pins Male Connector
 
 - No specific request for this component.
 
 - No Proposed Model
 
-### (7) 40 Pins Female Connector
+### 40 Pins Female Connector
 
 - Should be compatible with the Raspberry-Pi's GPIO Interface
 - No Proposed Model
