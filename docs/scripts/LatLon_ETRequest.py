@@ -23,7 +23,7 @@ GPIO.output(3,GPIO.LOW)
 
   
 #Defining the API-endpoint  
-API_ENDPOINT = "<BACKEND_URL>/tiff/coordinates_to_et?latitude=33.244646&longitude=35.386042"
+API_ENDPOINT = "<BACKEND_URL>/tiff/coordinates_to_et?latitude=<LAT>&longitude=<LON>"
 
 #Defining Headers
 headers = {'Content-Type' : 'application/json'}
