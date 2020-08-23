@@ -6,14 +6,6 @@ entries:
   version: 
   folders:
 
-  - title: Presentations
-    output: web
-    folderitems:
-
-    - title: August 26th, 2020
-      url: /Presentation-26thAugust.html
-      output: web
-
   - title: Meetings
     output: web
     folderitems:
@@ -44,4 +36,12 @@ entries:
       
     - title: June 8th, 2020
       url: /Meeting-8thJune.html
+      output: web
+      
+  - title: Presentations
+    output: web
+    folderitems:
+
+    - title: August 26th, 2020
+      url: /Presentation-26thAugust.html
       output: web
