@@ -6,6 +6,13 @@ entries:
   version: 
   folders:
 
+  - title: Presentations
+    output: web
+    folderitems:
+
+    - title: August 26th, 2020
+      url: /Presentation-26thAugust.html
+      output: web
 
   - title: Meetings
     output: web
