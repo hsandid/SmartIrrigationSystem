@@ -92,6 +92,10 @@ entries:
     - title: Raspberry-Pi Zero
       url: /Raspberry-Pi-Zero.html
       output: web
+      
+    - title: Pi-HAT Official Specifications
+      url: /Pi-Hat-Specifications.html
+      output: web
 
   - title: Powering the System
     output: web
