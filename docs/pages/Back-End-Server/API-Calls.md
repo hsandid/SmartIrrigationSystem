@@ -110,7 +110,7 @@ folder: Back-End-Server
 
 ## GET ```/fields```
 
-  - **Description: Returns all fields registered by a specific user
+  - **Description**: Returns all fields registered by a specific user
 
   - **Required Header :** ``` auth_token ```
 

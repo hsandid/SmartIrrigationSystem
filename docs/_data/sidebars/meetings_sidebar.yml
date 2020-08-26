@@ -10,6 +10,10 @@ entries:
     output: web
     folderitems:
     
+    - title: August 26th, 2020
+      url: /Meeting-26thAugust.html
+      output: web
+    
     - title: August 19th, 2020
       url: /Meeting-19thAugust.html
       output: web
