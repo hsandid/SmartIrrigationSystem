@@ -12,7 +12,7 @@ folder: Scripts
 ## Initialization
 
 
-- Importing the 'RPi.GPIO' library
+- Importing the 'RPI.GPIO' library
 
 ```python
 import RPi.GPIO
@@ -48,21 +48,23 @@ GPIO.setup(channel, GPIO.OUT)
 ## I/O configuration
 
 
-- (Input) Poll GPIO pins
-- 
+- Poll GPIO pins
+
 ```python
 if GPIO.input(channel):
     print('Input was HIGH')
 else:
     print('Input was LOW')
 ```
-- (Input) Input detection using Wait_for_edge() function
-- 
+
+- Input detection using Wait_for_edge() function
+
 ```python
 GPIO.wait_for_edge(channel, GPIO.RISING)
 ```
-- (Output) Set GPIO pin as high/low
-- 
+
+- Set GPIO pin as high/low
+
 ```python
 #Set output as high
 GPIO.output(<CHANNEL>, GPIO.HIGH)
@@ -72,10 +74,10 @@ GPIO.output(<CHANNEL>, GPIO.LOW)
 ```
 ---
 
-## Cleanup
+## Clean-up
 
 
-To cleanup any used resources, you can call the following : 
+To clean-up any used resources, you can call the following : 
 
 ```python
 GPIO.cleanup()
