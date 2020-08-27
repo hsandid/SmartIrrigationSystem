@@ -25,8 +25,26 @@ Double-Spaced, size 12, numbered pages, properly labelled tables/images/figures
 - List of tables, figures and pictures
 - Introduction outlining various projects and type of work assigned
   - Main Project : Smart Irrigation System
-  - Work Assigned : Developing Sysadmin scripts using different packages in Linux - Setting up a web server under Linux using Apache - Developing a Web Interface for the Smart Irrigation Controller using the Bootstrap Framework - Developing scripts to control the GPIO interface of the Raspberry-Pi and allow the Raspberry-Pi to communicate over the internet - Designing an addon Pi-Hat, which allows us to make any Raspberry-Pi a controller of the Smart Irrigation System - Implementing LoRa and GSM connectivity support in the Raspberry-Pi - Documenting the design and API calls of an existing back-end system -  Looking into cost-efficient and sustainable methods to power the system - Researching more about the most popular Irrigation Systems - Performance and expected power usage of the Raspberry-Pi model we are using in our prototype (Raspberry-Pi 3 Model B) - Specify all open-source and licensed software we are using, and which we will package into a standalone image to use with our Smart Irrigation Controller - PCB Interface we’ve designed for the Smart Irrigation - Controller, with a mention of what CAD tool we’ve used, any additional Symbols & Footprints we had to design ourselves, and which specific or general modules our PCB targets. - Compatibility issues & region our Smart Irrigation Controller is targeted at - Web Interface for the Smart Irrigation Controller - Planned use of the Levantine Mobile Application to control the Smart Irrigation Controller - Add diagrams representing the systems and how its different components communicate - Talk about the back-end system, explain its API calls and talk about analytics.
-
+  - Work Assigned : 
+  - Developing Sysadmin scripts using different packages in Linux 
+    - Setting up a web server under Linux using Apache
+    - Developing a Web Interface for the Smart Irrigation Controller using the Bootstrap Framework
+    - Developing scripts to control the GPIO interface of the Raspberry-Pi and allow the Raspberry-Pi to communicate over the internet
+    - Designing an addon Pi-Hat, which allows us to make any Raspberry-Pi a controller of the Smart Irrigation System
+    - Implementing LoRa and GSM connectivity support in the Raspberry-Pi
+    - Documenting the design and API calls of an existing back-end system
+    - Looking into cost-efficient and sustainable methods to power the system
+    - Researching more about the most popular Irrigation Systems 
+    - Performance and expected power usage of the Raspberry-Pi model we are using in our prototype (Raspberry-Pi 3 Model B)
+    - Specify all open-source and licensed software we are using, and which we will package into a standalone image to use with our Smart Irrigation Controller
+    - PCB Interface we’ve designed for the Smart Irrigation
+    - Controller, with a mention of what CAD tool we’ve used, any additional Symbols & Footprints we had to design ourselves, and which specific or general modules our PCB targets.
+    - Compatibility issues & region our Smart Irrigation Controller is targeted at 
+    - Web Interface for the Smart Irrigation Controller
+    - Planned use of the Levantine Mobile Application to control the Smart Irrigation Controller
+    - Add diagrams representing the systems and how its different components communicate 
+    - Talk about the back-end system, explain its API calls and talk about analytics.
+  
 - Core content detailing various stages of training on a project basis. Explain all technical and administrative duties performed
 - Show impact of engineering solution in a global, economic, environmental, and societal context
   - *Economic* : Lebanon had issues with agriculture beforehand, this would help boost the efficiency of farmers and their crop-growing activities.
