@@ -9,31 +9,38 @@ folder: Powering-The-System
 ---
 
 
-- The Raspberry-Pi does not offer a  '*stand-by*' mode. We will need to manage the board's components and any running software to achieve the lowest power consumption when the Pi is idle or under use.
-- To lower the power consumption of the *Smart Irrigation Controller*, it is recommended to disable any unused interfaces on the Pi board, and limit the amount of daemons (i.e. background processes) or user processes running under Raspbian on the Pi system.
+- The Raspberry-Pi does not offer a '*stand-by*' mode. We will need to manually manage the board's components and any running software to achieve the lowest power consumption when the Pi is idle or under use.
 
-# Hardware
+### Handling Hardware Required by the *Smart Irrigation Controller*
 
-The following components are essential for the *Smart Irrigation Controller* to operate properly, however they will be turned off when not needed to conserve power :
+The following components are required for the *Smart Irrigation Controller* to operate properly. These components will be turned on/off to conserver power, depending on the needs of the *Smart Irrigation Controller* :
 
-- LoRa Transceiver OR GSM Module, any additional device connected to the GPIO interface for Irrigation control (i.e. flow meters...).
+- LoRa Transceiver OR GSM Module
+- Any additional device connected to the GPIO interface for Irrigation control (i.e. flow meters, actuators...).
 
-The following hardware components of the Raspberry-Pi are not required for the *Smart Irrigation Controller*, and will be disabled through software to conserve power :
+### Disabling Raspberry-Pi On-Board Components
 
-- HDMI Port - USB Ports - Wi-Fi device - Bluetooth Device - CSI camera port - DSI display port - 4-pole stereo output and composite video port - On-board LEDs
+Some of the components present on the Raspberry-Pi are not necessary to the functioning of the *Smart Irrigation Controller*, and as such it is preferable to disable them. Raspbian-OS allows us to disable most of these components through software :
 
-# Software
+- On-Board HDMI Port
+- On-Board USB Ports 
+- On-Board Wi-Fi Module
+- On-Board Bluetooth Module
+- On-Board CSI Camera Port
+- On-Board DSI Display Port 
+- On-Board 4-Poles Stereo Output and Composite Video Port 
+- On-Board LEDs
 
-We will be using Raspbian Lite on our Raspberry-Pi, with only the required daemons & user processes for the *Smart Irrigation Controller* to operate. Software running at all times includes :
+### Software running on the *Smart Irrigation Controller*
 
-- Raspbian OS daemons (most notably cron) - *Apache* Web Server running the Web Interface 
+We will be using *'Lite'* OS on our Raspberry-Pi, with contains only the daemons & user processes necessary for the *Smart Irrigation Controller* to operate :
 
-We'd also require the following processes to run periodically for the *Smart Irrigation Controller* to operate properly, they will be started by the *Cron* service and killed when not needed to conserve power :
+- Essential Raspbian daemons (like *CRON*).
+- *Apache Web Server*, to have the Web Interface up-and-running. 
 
-- Irrigation Control Script (Python-based) - Incron**
+- Irrigation Control Script (Python-based) 
+- *INCRON*, which is a similar program to *CRON* but instead of running commands based on time, it triggers commands based on file/directory events. We will use it in the *Smart Irrigation Controller* to modify *CRON* jobs according to user preferences on the Web interface.
 
-***What is Incron ?* : Incron is a similar program to Cron, but instead of running commands based on time, it triggers commands based on file/directory events. We will use it in the *Smart Irrigation Controller* to modify *Cron* jobs according to user preferences on the Web interface.
-
-# Source
+### Source
 
 - [HowToForge - What is Incron ?](https://www.howtoforge.com/tutorial/trigger-commands-on-file-or-directory-changes-with-incron/)
