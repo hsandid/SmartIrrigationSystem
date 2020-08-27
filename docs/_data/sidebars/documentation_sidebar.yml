@@ -30,6 +30,11 @@ entries:
     output: web
     folderitems:
     
+    - title: PCB Design Rules
+      url: /PCB-Design-Rules.html
+      output: web
+
+    
     - title: PCB Components (V01)
       url: /PCB-BOM-v01.html
       output: web
