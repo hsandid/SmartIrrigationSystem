@@ -26,7 +26,9 @@ GPIO.setmode(GPIO.BOARD)
 #BCM numbering system
 GPIO.setmode(GPIO.BCM)
 ```
+
 - Configure channel as an input:
+
 ```python
 #With Pull-up resistor
 GPIO.setup(channel, GPIO.IN, pull_up_down=GPIO.PUD_UP)
@@ -34,16 +36,20 @@ GPIO.setup(channel, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 #With Pull-down resistor
 GPIO.setup(channel, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 ```
+
 - Configure channel as an output:
+
 ```python
 GPIO.setup(channel, GPIO.OUT)
 ```
+
 ---
 
 ## I/O configuration
 
 
 - (Input) Poll GPIO pins
+- 
 ```python
 if GPIO.input(channel):
     print('Input was HIGH')
@@ -51,10 +57,12 @@ else:
     print('Input was LOW')
 ```
 - (Input) Input detection using Wait_for_edge() function
+- 
 ```python
 GPIO.wait_for_edge(channel, GPIO.RISING)
 ```
 - (Output) Set GPIO pin as high/low
+- 
 ```python
 #Set output as high
 GPIO.output(<CHANNEL>, GPIO.HIGH)
@@ -68,6 +76,7 @@ GPIO.output(<CHANNEL>, GPIO.LOW)
 
 
 To cleanup any used resources, you can call the following : 
+
 ```python
 GPIO.cleanup()
 ```
