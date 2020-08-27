@@ -41,11 +41,10 @@ Here are some general recommendations concerning PCB Design, especially two-laye
   - Mutual capacitance occurs as a result of the coupling of the electric fields between two tracks. A voltage appearing on one track creates an electric field which can couple to a second line. Changing voltages,  especially fast edges can result in similar edges appearing on nearby lines. 
   - To avoid these effects, we should avoid tracks that run in parallel on any adjacent layers, if tracks have to cross, they should cross at right angles and using layers as far apart as possible. Line spacing should be as wide as possible, and to reduce mutual  capacitance lines should be as thin as possible. Finally, where transmission lines are used, they should be as close to the ground plane as possible. This will reduce coupling to other nearby lines.
 
-**Simultaneous switching** : 
-
-- If several output lines are switched simultaneously, the transient currents become very large, and this can give rise to signal instability. Signal integrity issues arise because a voltage arises between the device ground and the board ground. 
-- If the chip ground rises sufficiently it can cause the signal switching levels to be exceeded, thereby causing spurious switching to occur. A workaround would be to avoid simultaneous switching in the circuit. 
-- If the circuits are operated synchronously and we cannot avoid simultaneous switching, we should at least ensure that we have a good grounding to avoid signal instability.
+- **Simultaneous switching** : 
+  - If several output lines are switched simultaneously, the transient currents become very large, and this can give rise to signal instability. Signal integrity issues arise because a voltage arises between the device ground and the board ground. 
+  - If the chip ground rises sufficiently it can cause the signal switching levels to be exceeded, thereby causing spurious switching to occur. A workaround would be to avoid simultaneous switching in the circuit. 
+  - If the circuits are operated synchronously and we cannot avoid simultaneous switching, we should at least ensure that we have a good grounding to avoid signal instability.
 
 # Source 
 
