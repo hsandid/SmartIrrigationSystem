@@ -29,4 +29,3 @@ Back Layer :
 3D View :
 
 ![3D View #1](../../images/PCB-3D-V2-1.png)
-![3D View #2](../../images/PCB-3D-V2-2.png)
