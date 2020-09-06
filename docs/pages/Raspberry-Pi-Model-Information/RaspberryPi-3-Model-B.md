@@ -45,9 +45,9 @@ folder: Raspberry-Pi-Model-Information
   - Raspberry-Pi supports SPI with the following pin configuration :
     - SPI0: MOSI (GPIO10); MISO (GPIO9); SCLK (GPIO11); CE0 (GPIO8), CE1 (GPIO7)
     - SPI1: MOSI (GPIO20); MISO (GPIO19); SCLK (GPIO21); CE0 (GPIO18); CE1 (GPIO17); CE2 (GPIO16)
-- Raspberry-Pi supports I2C with the following pin configuration :
-    - EEPROM Data: (GPIO0); EEPROM Clock (GPIO1); Data: (GPIO2); Clock (GPIO3)
-  
+  - Raspberry-Pi supports I2C with the following pin configuration :
+      - EEPROM Data: (GPIO0); EEPROM Clock (GPIO1); Data: (GPIO2); Clock (GPIO3)
+
   
 
 
