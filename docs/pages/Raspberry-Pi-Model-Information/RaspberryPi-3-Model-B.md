@@ -40,12 +40,14 @@ folder: Raspberry-Pi-Model-Information
   - Raspberry-Pi supports Pulse-Width modulation
     - Software Pulse-Width Modulation is available on all GPIO pins.
     - Hardware Pulse-Width Modulation is available on pins GPIO12, GPIO13, GPIO18, GPIO19.
-  - Raspberry-Pi supports SPI over it's UART interface
+  - Raspberry-Pi supports UART with the following pin configuration :
+    - RX(GPIO15), TX (GPIO16) 
+  - Raspberry-Pi supports SPI with the following pin configuration :
     - SPI0: MOSI (GPIO10); MISO (GPIO9); SCLK (GPIO11); CE0 (GPIO8), CE1 (GPIO7)
     - SPI1: MOSI (GPIO20); MISO (GPIO19); SCLK (GPIO21); CE0 (GPIO18); CE1 (GPIO17); CE2 (GPIO16)
-  - Raspberry-Pi supports I2C over it's UART interface
+- Raspberry-Pi supports I2C with the following pin configuration :
     - EEPROM Data: (GPIO0); EEPROM Clock (GPIO1); Data: (GPIO2); Clock (GPIO3)
-
+  
   
 
 
