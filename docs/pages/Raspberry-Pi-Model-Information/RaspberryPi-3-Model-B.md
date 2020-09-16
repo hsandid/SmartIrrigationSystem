@@ -8,6 +8,7 @@ permalink: Raspberry-Pi-3-Model-B.html
 folder: Raspberry-Pi-Model-Information
 ---
 
+**Disclaimer** : This page gives an overview of the Raspberry-Pi 3 Model B. Most of the information here comes from the official [Raspberry-Pi 3B Product Page](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/).
 
 ![Image of Rasp3 modelB](https://images-na.ssl-images-amazon.com/images/I/71EPckcD8ZL._AC_SL1244_.jpg)
 

@@ -8,6 +8,9 @@ permalink: overview-lora-lorawan.html
 folder: LoRa-LoRaWAN-Module
 
 ---
+
+**Disclaimer** : This page gives an overview of the LoRa and LoRaWAN technology. Most of the information here comes from the [Official LoRa Alliance](https://lora-alliance.org/sites/default/files/2018-04/what-is-lorawan.pdf) website.
+
 # What is LoRa ?
 
 - LoRa is a technology providing the wireless modulation/physical layer used to create a long range communication link. It is based on chirp-spread spectrum modulation.

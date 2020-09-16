@@ -8,9 +8,11 @@ permalink: back-end-analytics.html
 folder: Back-End-Server
 ---
 
+**Disclaimer :**  
+- Back-End System has been fully designed by *Roaa Al-Feel*
+- Back-end is still under testing. As such, an URI will not be made publicly available until our back-end has been fully tested and deployed on a cloud platform.
+
 All events we want to track in the back-end server and the front-end mobile application/web interface for analytics are displayed here
-
-
 
 
 

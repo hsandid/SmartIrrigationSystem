@@ -8,7 +8,11 @@ permalink: back-end-api-calls.html
 folder: Back-End-Server
 ---
 
-**Disclaimer :**  Our back-end is still under testing. As such, an URI will not be made publicly available until our back-end has been fully tested and deployed on a cloud platform.
+
+
+**Disclaimer :**  
+- Back-End System has been fully designed by *Roaa Al-Feel*
+- Back-end is still under testing. As such, an URI will not be made publicly available until our back-end has been fully tested and deployed on a cloud platform.
 
 ## POST ```/signup ```
 

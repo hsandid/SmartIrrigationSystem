@@ -5,9 +5,12 @@ last_updated:
 tags: 
 sidebar: documentation_sidebar
 permalink: ieee-document-template.html
-folder: EECE-500-Final-Report
+folder: EECE-500-Deliverables
 ---
 
+**Source** : *Embedded Microprocessor Systems Design* Course, supervised by Dr. Mazen Saghir.
+
+---
 
 ## (1) Overview
 
@@ -33,6 +36,3 @@ folder: EECE-500-Final-Report
 2. **Audits** : How will clients evaluate progress?
 3. **Outcomes** : What are the deliverables? How do we know when the project is done?
 
----
-
-**Source** : *Embedded Microprocessor Systems Design* Course, supervised by Dr. Mazen Saghir.

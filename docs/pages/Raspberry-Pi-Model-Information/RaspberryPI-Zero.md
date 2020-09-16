@@ -8,6 +8,7 @@ permalink: Raspberry-Pi-Zero.html
 folder: Raspberry-Pi-Model-Information
 ---
 
+**Disclaimer** : This page gives an overview of the Raspberry-Pi Zero. Most of the information here comes from the official [Raspberry-Pi Zero Product Page](https://www.raspberrypi.org/products/raspberry-pi-zero/).
 
 ![Raspberry-Pi Zero ](https://images-na.ssl-images-amazon.com/images/I/61WK8C9pz8L._AC_SY355_.jpg)
 

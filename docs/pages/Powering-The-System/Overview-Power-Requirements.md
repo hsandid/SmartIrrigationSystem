@@ -46,3 +46,4 @@ We know that the Raspberry-Pi requires an input voltage of 5V. We will now see h
 # Source
 
 - [PiHut - How do I power my Raspberry Pi?](https://thepihut.com/blogs/raspberry-pi-tutorials/how-do-i-power-my-raspberry-pi)
+- [PidRamble - Raspberry-Pi Power Consumption Benchmarks](https://www.pidramble.com/wiki/benchmarks/power-consumption)

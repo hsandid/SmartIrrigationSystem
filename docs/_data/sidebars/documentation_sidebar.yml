@@ -22,18 +22,13 @@ entries:
       url: /Requesting-ET-Value-From-FieldID.html
       output: web
       
-    - title: Python - Requesting ET Value from Latitude & Longitude Information
+    - title: Python3 - Requesting ET Value from Latitude & Longitude Information
       url: /Requesting-ET-Value-From-LatLon.html
       output: web
 
   - title: PCB Design
     output: web
     folderitems:
-    
-    - title: PCB Design Rules
-      url: /PCB-Design-Rules.html
-      output: web
-
     
     - title: PCB Components (V01)
       url: /PCB-BOM-v01.html
@@ -117,33 +112,16 @@ entries:
     - title: Using Solar Power
       url: /Using-Solar-Power.html
       output: web
-
-
-  - title: Targeted Irrigation Systems
-    output: web
-    folderitems:
-    
-    - title: Drip Irrigation System
-      url: /drip-irrigation-system.html
-      output: web
-         
-    - title: Sprinkler Irrigation System
-      url: /sprinkler-irrigation-system.html
-      output: web
-      
-    - title: Surface Irrigation System
-      url: /surface-irrigation-system.html
-      output: web
       
 
-  - title: Final Report for EECE-500
+  - title: EECE 500 'Approved Experience' Deliverables
     output: web
     folderitems:
+
+    - title: Final Report & Presentation
+      url: /final-report-presentation.html
+      output: web
     
     - title: IEEE Design Document Template
       url: /ieee-document-template.html
-      output: web
-      
-    - title: Final Report Structure
-      url: /final-report-structure.html
       output: web

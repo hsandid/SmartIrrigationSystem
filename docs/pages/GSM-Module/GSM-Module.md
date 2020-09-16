@@ -11,7 +11,7 @@ folder: GSM-Module
 - To allow our Raspberry-Pi board to receive\transmit data over cellular network, we must equip it with a GSM transceiver.
 - All models listed here require a SIM card with an active mobile broadband subscription.
 - A reference to the Lebanese National Frequency allocation Table can be found [here](http://www.tra.gov.lb/Library/Files/Uploaded%20files/LNFT_TRA_Final%20Version%20for%20publication_24062008.pdf). It contains all information related to the bands occupied by mobile traffic & data services in Lebanon.
-- Here is a reference of cellular network technologies and their associated bandwidth speed :
+- Here is a reference of cellular network technologies and their associated bandwidth speed (*Image Source: KensTechTips.com*) :
 
 ![Cellular Technologies](../../images/Table-Cellular-Technology-Speed.PNG)
 

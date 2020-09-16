@@ -8,6 +8,8 @@ permalink: Pi-Hat-Specifications.html
 folder: Raspberry-Pi-Model-Information
 ---
 
+**Disclaimer** : This page gives an overview of the Pi-HAT standards recommended by the Raspberry-Pi foundation. Most of the information here comes from the [Raspberry-Pi GitHub Documentation](https://github.com/raspberrypi/hats).
+
 # Official Pi-Hat Specifications
 
 - Most Raspberry-Pi boards (Raspberry-Pi Model B+ and onwards) have been designed to support add-on boards, or 'HATs' (Hardware Attached on Top).
